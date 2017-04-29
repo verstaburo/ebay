@@ -123,7 +123,7 @@ header, section, footer {
   float: left; }
 
 .container {
-  width: 1320px;
+  width: 1296px;
   margin: 0 auto;
   box-sizing: border-box; }
 
@@ -1469,15 +1469,14 @@ div.bigwrapper {
 
 /* ################################ */
 .table {
-  margin-top: 61px;
   position: relative;
   z-index: 1;
-  padding-bottom: 108px;
-  border-radius: 10px;
   background-color: #fff;
-  padding: 29px 0 44px; }
+  padding: 27px 60px;
+  box-shadow: 0 6px 36px rgba(25, 33, 45, 0.02);
+  border-radius: 3px; }
   .table li {
-    padding: 30px 0;
+    padding: 39px 0;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #f2f3f6;
@@ -1485,46 +1484,59 @@ div.bigwrapper {
     .table li:last-child {
       border-bottom: none; }
     .table li p {
-      color: #7c7d98; }
+      font-size: 16px;
+      box-sizing: border-box;
+      line-height: 1.35em; }
+    .table li a {
+      color: #fc57a4; }
     .table li p:first-child {
-      width: 272px;
-      text-indent: -2px; }
-    .table li .icon:after {
-      width: 42px;
-      height: 42px;
-      border-radius: 18px; }
-    .table li .icon.avatar:after {
-      width: 60px;
-      height: 60px;
-      border-radius: 26px;
-      background-image: url(../img/avatar.png);
-      background-size: cover;
-      background-position: center; }
-    .table li .icon.happy:after {
-      content: url("../img/smile.svg");
-      background-color: #50e3c2;
-      box-shadow: 0 15px 35px rgba(79, 227, 194, 0.33); }
-    .table li .icon.sad:after {
-      content: url("../img/smile2.svg");
-      background-color: #ff7373;
-      box-shadow: 0 15px 35px rgba(255, 114, 114, 0.33); }
-    .table li .icon.displeased:after {
-      content: url("../img/smile3.svg");
-      background-color: #ffc744;
-      box-shadow: 0 15px 35px rgba(243, 209, 79, 0.33); }
-    .table li .icon.pin:after {
-      content: url("../img/pin.svg"); }
+      width: 288px;
+      padding-right: 30px; }
+    .table li .icon {
+      width: 40px;
+      height: 0; }
+      .table li .icon:after {
+        width: 40px;
+        height: 40px;
+        border-radius: 1000px; }
+      .table li .icon.avatar:after {
+        width: 40px;
+        height: 40px;
+        border-radius: 1000px;
+        background-image: url(../img/avatar.png);
+        background-size: cover;
+        background-position: center; }
+      .table li .icon.happy:after {
+        content: url("../img/smile.svg");
+        background-color: #50e3c2;
+        box-shadow: 0 15px 35px rgba(79, 227, 194, 0.33); }
+      .table li .icon.sad:after {
+        content: url("../img/smile2.svg");
+        background-color: #ff7373;
+        box-shadow: 0 15px 35px rgba(255, 114, 114, 0.33); }
+      .table li .icon.displeased:after {
+        content: url("../img/smile3.svg");
+        background-color: #ffc744;
+        box-shadow: 0 15px 35px rgba(243, 209, 79, 0.33); }
+      .table li .icon.pin:after {
+        content: url("../img/pin.svg"); }
+      .table li .icon.dollar:after {
+        content: url("../img/dollar.svg"); }
+      .table li .icon.cloud:after {
+        content: url("../img/cloud.svg"); }
     .table li p.huge {
-      width: 193px;
-      color: #43456c;
+      width: 226px;
       overflow: hidden;
       white-space: nowrap;
-      text-overflow: ellipsis; }
+      text-overflow: ellipsis;
+      font-size: 19px;
+      font-weight: 300;
+      letter-spacing: 0.48px; }
       .table li p.huge span {
         font-size: 17px;
         display: block; }
     .table li p:last-child {
-      width: 557px; }
+      width: 575px; }
 
 /* ################################ */
 .share {

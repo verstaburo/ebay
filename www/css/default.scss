@@ -380,23 +380,27 @@ div.bigwrapper {float:left; width:100%; overflow-x: hidden;}
 
 /* ################################ */
 
-.table {margin-top: 61px; position: relative; z-index: 1; padding-bottom: 108px; border-radius: 10px; background-color: #fff; padding: 29px 0 44px;
-	li {padding: 30px 0; display: flex; align-items: center; border-bottom: 1px solid #f2f3f6; justify-content: space-between;
+.table {position: relative; z-index: 1; background-color: #fff; padding: 27px 60px; box-shadow: 0 6px 36px rgba(25, 33, 45, 0.02);
+border-radius: 3px;
+	li {padding: 39px 0; display: flex; align-items: center; border-bottom: 1px solid #f2f3f6; justify-content: space-between;
 		&:last-child {border-bottom: none;}
-		p {color:#7c7d98}
-		p:first-child {width: 272px; text-indent: -2px;}
-		.icon {
-			&:after {width: 42px; height: 42px; border-radius: 18px;}
-			&.avatar:after {width: 60px; height: 60px; border-radius: 26px; background-image: url(../img/avatar.png); background-size: cover; background-position:center;}
+		p {font-size: 16px; box-sizing: border-box; line-height: 1.35em;}
+		a {color: #fc57a4;}
+		p:first-child {width: 288px; padding-right: 30px;}
+		.icon {width: 40px; height: 0;
+			&:after {width: 40px; height: 40px; border-radius: 1000px;}
+			&.avatar:after {width: 40px; height: 40px; border-radius: 1000px; background-image: url(../img/avatar.png); background-size: cover; background-position:center;}
 			&.happy:after {content: url("../img/smile.svg"); background-color: #50e3c2; box-shadow: 0 15px 35px rgba(79, 227, 194, 0.33);}
 			&.sad:after {content: url("../img/smile2.svg"); background-color: #ff7373; box-shadow: 0 15px 35px rgba(255, 114, 114, 0.33);}
 			&.displeased:after {content: url("../img/smile3.svg"); background-color: #ffc744; box-shadow: 0 15px 35px rgba(243, 209, 79, 0.33);}
 			&.pin:after {content: url("../img/pin.svg");}
+			&.dollar:after {content: url("../img/dollar.svg");}
+			&.cloud:after {content: url("../img/cloud.svg");}
 		}
-		p.huge {width: 193px; color:#43456c; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+		p.huge {width: 226px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 19px; font-weight: 300; letter-spacing: 0.48px;
 			span {font-size: 17px; display:block;}
 		}
-		p:last-child {width: 557px;}
+		p:last-child {width: 575px;}
 	}
 }
 
