@@ -282,7 +282,7 @@
 					<a href="#" class="second__card morecard shadow-hover">
 						<img src="img/ebaylogo.png" alt="@@" class="morecard__logo">
 						<p class="morecard__count">+ 8 669</p>
-						<p class="morecard__text">Показать все товары Sorokins</p>
+						<p class="morecard__text">Показать все товары<br> Sorokins</p>
 					</a>
 				</div>
 			</div>
