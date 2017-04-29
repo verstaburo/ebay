@@ -1,0 +1,34 @@
+@font-face {
+font-family: 'Circe';
+font-style: normal;
+font-weight: 200;
+src: url('CRC25.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Circe';
+font-style: normal;
+font-weight: 300;
+src: url('CRC35.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+src: url('CRC55.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Circe';
+font-style: normal;
+font-weight: 500;
+src: url('Circe-Bold_0.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Circe';
+font-style: normal;
+font-weight: 600;
+src: url('Circe-ExtraBold.otf') format('opentype');
+}

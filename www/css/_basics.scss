@@ -1,0 +1,201 @@
+@mixin border-radius($topleft, $topright: $topleft, $bottomright: $topleft, $bottomleft: $topleft) {
+    -moz-border-radius-topleft:     $topleft;
+    -moz-border-radius-topright:    $topright;
+    -moz-border-radius-bottomright: $bottomright;
+    -moz-border-radius-bottomleft:  $bottomleft;
+    -webkit-border-radius:          $topleft $topright $bottomright $bottomleft;
+    border-radius:                  $topleft $topright $bottomright $bottomleft;
+}
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+@mixin box-shadow($top, $left, $blur, $else, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $else $color;
+    -moz-box-shadow:inset $top $left $blur $else $color;
+    box-shadow:inset $top $left $blur $else $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $else $color;
+    -moz-box-shadow: $top $left $blur $else $color;
+    box-shadow: $top $left $blur $else $color;
+  }
+}
+@mixin gradient($from, $to) {
+  background-color: $from;
+  background-image: -moz-linear-gradient($from, $to);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+  background-image: -webkit-linear-gradient($from, $to);
+  background-image: -o-linear-gradient($from, $to);
+}
+@mixin box-sizing {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {/* */
+border: none;
+}
+*:focus {outline: none;}
+
+// Цвет выделения текста
+::selection {background: #ff73b3;color:white;}
+::-moz-selection {background: #ff73b3;color:white;}
+::-webkit-selection {background: #ff73b3;color:white;}
+
+// Цвет плейсхолдера //
+::-webkit-input-placeholder {color:rgba(#43456c,.7)}
+::-moz-placeholder {color:rgba(#43456c,.7)}
+:-ms-input-placeholder {color:rgba(#43456c,.7)}
+:-moz-placeholder {color:rgba(#43456c,.7)}
+
+// Фиксирование для body (при кастомных модальных окнах)
+.noscroll {position: fixed;}
+
+// Настройки для автозаполнения Chrome
+input:-webkit-autofill {
+    -webkit-text-fill-color: black !important; // Поменять цвет на аналогичный цвету input'а
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 50000000000s ease-in-out 0s !important;
+}
+
+
+
+
+
+
+
+
+// Сетка //
+$col-m:2.6%; // Расстояние между колонками
+$col:(100-($col-m*11))/12; // Ширина колонки
+
+.one-col {width:$col}
+.two-col {width:$col*2+$col-m*1;}
+.three-col {width:$col*3+$col-m*2;}
+.four-col {width:$col*4+$col-m*3;}
+.five-col {width:$col*5+$col-m*4;}
+.six-col {width:$col*6+$col-m*5;}
+.seven-col {width:$col*7+$col-m*6;}
+.eight-col {width:$col*8+$col-m*7;}
+.nine-col {width:$col*9+$col-m*8;}
+.ten-col {width:$col*10+$col-m*9;}
+.eleven-col {width:$col*11+$col-m*10;}
+.twelve-col {width:$col*12+$col-m*11;}
+
+// Равное расстояние между колонками
+.cols {text-align:justify; text-justify:distribute;
+  &:after {content:""; display:inline-block; height:0.0000000000001px; width:100%;}
+    >* {display:inline-block; @include box-sizing; vertical-align: top;
+  }
+}
+// Сетка //
+
+
+
+
+
+
+
+
+
+// Основы //
+html {min-width:1340px; min-height:100%; width:100%; float:left;}
+body {width:100%; min-height:100%; float:left; font-size:0; font-family: "Foco", Arial, sans-serif; color: #262627; background:#4d50a6; overflow-y:scroll;
+    &.active >section.firstscreen {top:-200px; opacity:0;}
+    &.active div.content {display:block;}
+}
+
+header, section, footer {width:100%; float:left;}
+.container {width: 1320px; margin:0 auto; box-sizing: border-box;}
+.container.small {width: 1176px;}
+// Основы //
+
+
+
+
+
+
+// Типографика //
+h1,h2,h3,h4,h5,h6,p,span,ul,li {margin:0; padding:0}
+ul {list-style:none}
+span {font-style: inherit; font-family: inherit; font-weight: inherit;}
+
+h1,h2,h3,h4,h5 {} // Общие стили для заголовков (если есть)
+
+// Стили заголовков (удалить лишнее)
+h1 {font-size: 42px; font-weight: 300; line-height: 53px;}
+
+// Стили абзацев (удалить лишнее)
+p {font-size:19px; line-height:26px;}
+p.small {font-size:17px; line-height:23px; text-transform: uppercase; color: #43456c; letter-spacing: 3px; opacity: 0.5;}
+p.mini {font-size:14px; text-transform: uppercase; font-weight: 500; letter-spacing: 2.47px; opacity: 0.5;}
+p.huge {font-size:25px; line-height:31px;}
+p.large {font-size: 53px;}
+
+.rose {color: #ff73b3 !important;}
+// Типографика //
+
+
+
+
+
+
+
+
+
+// Формы, кнопки, поля ввода //
+a,input,button,select,textarea {@include transition(all, 0.25s, ease-in-out); @include box-sizing;}
+a {text-decoration: inherit; font-weight: inherit; line-height:inherit; color:inherit;}
+a.rose:hover {
+    color:#e85c9c !important;
+}
+
+select, input, textarea {padding: 10px; text-align: left; margin: 0; padding:0; border: 0; font-size: 14px; display:inline-block;}
+
+.button {text-align:center; border:0; padding:1px 30px 0px; display:inline-block; color:white; height:60px; line-height:60px; font-size:17px; text-transform: uppercase; background-color: #ff73b3; border-radius: 26px; letter-spacing: 2.68px; box-shadow: 0 15px 35px rgba(255, 114, 179, 0.33); box-sizing: border-box;
+    
+    &:hover {background-color:#e85c9c;}
+    
+    &.small {background-color: rgba(#cae2ff, 0.1); border-radius: 20px; letter-spacing: 1.65px; font-size: 14px; box-shadow: none; padding: 1px 23px 0; height:50px; line-height:50px;
+        &.violet {line-height:46px;}
+        &:hover {background-color:rgba(202, 226, 255, 0.18)}
+    }
+    
+    &.violet {background-color: transparent !important; border: 2px solid rgba(white, 0.1); box-shadow: none; line-height:56px;
+        &:hover {border-color:white}
+    }
+}
+
+form {
+	input {background-color: transparent; border-bottom: 3px solid rgba(white, 0.1); height: 77px; width: 100%; color: #fff; line-height: 77px; font-size: 19px;}
+  	.form-bottom {margin-top: 42px;}
+  	.button {display: block; transition: all 0.25s ease-in-out; min-width: 175px; opacity: 0; pointer-events: none; transform: translate3d(0,20px,0); height: 50px; line-height: 50px; text-transform: none; font-size: 19px; font-weight: 400; letter-spacing: 0.2px; margin-top: -50px;
+		&.active {opacity: 1; pointer-events: all; transform: translate3d(0,0,0); margin-top: 0;}
+	}
+	.inputblock {position: relative;
+    	.more {display: inline-block; width: 35px; height: 35px; position: absolute; left: 0; top: 0; bottom: 0; margin: auto; display: flex; justify-content: space-between; align-items: center; padding: 0 9px; box-sizing: border-box; opacity: 0; pointer-events: none; background-color: #5356ad; transition: all 0.25s ease-in-out; border-radius: 1000px; cursor: pointer;
+	  		&:after {content: ""; display: inline-block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; border-radius: 1000px; border: 1px solid #7072ba; box-sizing: border-box;}
+	  		&__dot {width: 3px; height: 3px; background-color: #ffffff; border-radius: 1000px;}
+		}
+  	}
+  	&.filled .inputblock .more {opacity:1; pointer-events: all;}
+	.inputlink {position: absolute; left: 0; top: 68px; box-shadow: 0 12px 36px rgba(25, 33, 45, 0.2); border-radius: 3px; background-color: #0a1439; font-size: 16.5px; font-weight: 300; letter-spacing: 0.4px; line-height: 22px; padding: 14px 22px; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out; z-index: 1; word-break: break-all;
+		&.active {opacity: 1; pointer-events: all;}
+	}
+}
+// Формы, кнопки, поля ввода //
