@@ -725,7 +725,13 @@
 	<!-- ###################### -->
 	
 </div>
+
+<section class="section section_footer">
+    <?php include "blocks/footer.php"; ?>
 </section>
+
+</section>
+
 </div>
 
 <!-- ###################### -->

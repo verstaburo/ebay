@@ -1,3 +1,4 @@
+/* line 40, C:/Projects/home/ebay/www/css/_basics.scss */
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
@@ -7,89 +8,115 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   /* */
   border: none; }
 
+/* line 48, C:/Projects/home/ebay/www/css/_basics.scss */
 *:focus {
   outline: none; }
 
+/* line 51, C:/Projects/home/ebay/www/css/_basics.scss */
 ::selection {
   background: #ff73b3;
   color: white; }
 
+/* line 52, C:/Projects/home/ebay/www/css/_basics.scss */
 ::-moz-selection {
   background: #ff73b3;
   color: white; }
 
+/* line 53, C:/Projects/home/ebay/www/css/_basics.scss */
 ::-webkit-selection {
   background: #ff73b3;
   color: white; }
 
+/* line 56, C:/Projects/home/ebay/www/css/_basics.scss */
 ::-webkit-input-placeholder {
   color: rgba(67, 69, 108, 0.7); }
 
+/* line 57, C:/Projects/home/ebay/www/css/_basics.scss */
 ::-moz-placeholder {
   color: rgba(67, 69, 108, 0.7); }
 
+/* line 58, C:/Projects/home/ebay/www/css/_basics.scss */
 :-ms-input-placeholder {
   color: rgba(67, 69, 108, 0.7); }
 
+/* line 59, C:/Projects/home/ebay/www/css/_basics.scss */
 :-moz-placeholder {
   color: rgba(67, 69, 108, 0.7); }
 
+/* line 62, C:/Projects/home/ebay/www/css/_basics.scss */
 .noscroll {
   position: fixed; }
 
+/* line 65, C:/Projects/home/ebay/www/css/_basics.scss */
 input:-webkit-autofill {
   -webkit-text-fill-color: black !important; }
 
+/* line 69, C:/Projects/home/ebay/www/css/_basics.scss */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 50000000000s ease-in-out 0s !important; }
 
+/* line 87, C:/Projects/home/ebay/www/css/_basics.scss */
 .one-col {
   width: 5.95%; }
 
+/* line 88, C:/Projects/home/ebay/www/css/_basics.scss */
 .two-col {
   width: 14.5%; }
 
+/* line 89, C:/Projects/home/ebay/www/css/_basics.scss */
 .three-col {
   width: 23.05%; }
 
+/* line 90, C:/Projects/home/ebay/www/css/_basics.scss */
 .four-col {
   width: 31.6%; }
 
+/* line 91, C:/Projects/home/ebay/www/css/_basics.scss */
 .five-col {
   width: 40.15%; }
 
+/* line 92, C:/Projects/home/ebay/www/css/_basics.scss */
 .six-col {
   width: 48.7%; }
 
+/* line 93, C:/Projects/home/ebay/www/css/_basics.scss */
 .seven-col {
   width: 57.25%; }
 
+/* line 94, C:/Projects/home/ebay/www/css/_basics.scss */
 .eight-col {
   width: 65.8%; }
 
+/* line 95, C:/Projects/home/ebay/www/css/_basics.scss */
 .nine-col {
   width: 74.35%; }
 
+/* line 96, C:/Projects/home/ebay/www/css/_basics.scss */
 .ten-col {
   width: 82.9%; }
 
+/* line 97, C:/Projects/home/ebay/www/css/_basics.scss */
 .eleven-col {
   width: 91.45%; }
 
+/* line 98, C:/Projects/home/ebay/www/css/_basics.scss */
 .twelve-col {
   width: 100%; }
 
+/* line 101, C:/Projects/home/ebay/www/css/_basics.scss */
 .cols {
   text-align: justify;
   text-justify: distribute; }
+  /* line 102, C:/Projects/home/ebay/www/css/_basics.scss */
   .cols:after {
     content: "";
     display: inline-block;
     height: 0.0000000000001px;
     width: 100%; }
+  /* line 103, C:/Projects/home/ebay/www/css/_basics.scss */
   .cols > * {
     display: inline-block;
     box-sizing: border-box;
@@ -97,12 +124,14 @@ input:-webkit-autofill:active {
     -webkit-box-sizing: border-box;
     vertical-align: top; }
 
+/* line 117, C:/Projects/home/ebay/www/css/_basics.scss */
 html {
   min-width: 1340px;
   min-height: 100%;
   width: 100%;
   float: left; }
 
+/* line 118, C:/Projects/home/ebay/www/css/_basics.scss */
 body {
   width: 100%;
   min-height: 100%;
@@ -112,45 +141,56 @@ body {
   color: #262627;
   background: #4d50a6;
   overflow-y: scroll; }
+  /* line 119, C:/Projects/home/ebay/www/css/_basics.scss */
   body.active > section.firstscreen {
     top: -200px;
     opacity: 0; }
+  /* line 120, C:/Projects/home/ebay/www/css/_basics.scss */
   body.active div.content {
     display: block; }
 
+/* line 123, C:/Projects/home/ebay/www/css/_basics.scss */
 header, section, footer {
   width: 100%;
   float: left; }
 
+/* line 124, C:/Projects/home/ebay/www/css/_basics.scss */
 .container {
   width: 1320px;
   margin: 0 auto;
   box-sizing: border-box; }
 
+/* line 125, C:/Projects/home/ebay/www/css/_basics.scss */
 .container.small {
   width: 1176px; }
 
+/* line 134, C:/Projects/home/ebay/www/css/_basics.scss */
 h1, h2, h3, h4, h5, h6, p, span, ul, li {
   margin: 0;
   padding: 0; }
 
+/* line 135, C:/Projects/home/ebay/www/css/_basics.scss */
 ul {
   list-style: none; }
 
+/* line 136, C:/Projects/home/ebay/www/css/_basics.scss */
 span {
   font-style: inherit;
   font-family: inherit;
   font-weight: inherit; }
 
+/* line 141, C:/Projects/home/ebay/www/css/_basics.scss */
 h1 {
   font-size: 42px;
   font-weight: 300;
   line-height: 53px; }
 
+/* line 144, C:/Projects/home/ebay/www/css/_basics.scss */
 p {
-  font-size: 19px;
-  line-height: 26px; }
+  font-size: 16px;
+  line-height: 1.2em; }
 
+/* line 145, C:/Projects/home/ebay/www/css/_basics.scss */
 p.small {
   font-size: 17px;
   line-height: 23px;
@@ -159,6 +199,7 @@ p.small {
   letter-spacing: 3px;
   opacity: 0.5; }
 
+/* line 146, C:/Projects/home/ebay/www/css/_basics.scss */
 p.mini {
   font-size: 14px;
   text-transform: uppercase;
@@ -166,16 +207,20 @@ p.mini {
   letter-spacing: 2.47px;
   opacity: 0.5; }
 
+/* line 147, C:/Projects/home/ebay/www/css/_basics.scss */
 p.huge {
   font-size: 25px;
   line-height: 31px; }
 
+/* line 148, C:/Projects/home/ebay/www/css/_basics.scss */
 p.large {
   font-size: 53px; }
 
+/* line 150, C:/Projects/home/ebay/www/css/_basics.scss */
 .rose {
   color: #ff73b3 !important; }
 
+/* line 162, C:/Projects/home/ebay/www/css/_basics.scss */
 a, input, button, select, textarea {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -186,15 +231,18 @@ a, input, button, select, textarea {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
+/* line 163, C:/Projects/home/ebay/www/css/_basics.scss */
 a {
   text-decoration: inherit;
   font-weight: inherit;
   line-height: inherit;
   color: inherit; }
 
+/* line 164, C:/Projects/home/ebay/www/css/_basics.scss */
 a.rose:hover {
   color: #e85c9c !important; }
 
+/* line 168, C:/Projects/home/ebay/www/css/_basics.scss */
 select, input, textarea {
   padding: 10px;
   text-align: left;
@@ -204,6 +252,7 @@ select, input, textarea {
   font-size: 14px;
   display: inline-block; }
 
+/* line 170, C:/Projects/home/ebay/www/css/_basics.scss */
 .button {
   text-align: center;
   border: 0;
@@ -219,8 +268,10 @@ select, input, textarea {
   letter-spacing: 2.68px;
   box-shadow: 0 15px 35px rgba(255, 114, 179, 0.33);
   box-sizing: border-box; }
+  /* line 172, C:/Projects/home/ebay/www/css/_basics.scss */
   .button:hover {
     background-color: #e85c9c; }
+  /* line 174, C:/Projects/home/ebay/www/css/_basics.scss */
   .button.small {
     background-color: rgba(202, 226, 255, 0.1);
     border-radius: 20px;
@@ -230,18 +281,23 @@ select, input, textarea {
     padding: 1px 23px 0;
     height: 50px;
     line-height: 50px; }
+    /* line 175, C:/Projects/home/ebay/www/css/_basics.scss */
     .button.small.violet {
       line-height: 46px; }
+    /* line 176, C:/Projects/home/ebay/www/css/_basics.scss */
     .button.small:hover {
       background-color: rgba(202, 226, 255, 0.18); }
+  /* line 179, C:/Projects/home/ebay/www/css/_basics.scss */
   .button.violet {
     background-color: transparent !important;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: none;
     line-height: 56px; }
+    /* line 180, C:/Projects/home/ebay/www/css/_basics.scss */
     .button.violet:hover {
       border-color: white; }
 
+/* line 185, C:/Projects/home/ebay/www/css/_basics.scss */
 form input {
   background-color: transparent;
   border-bottom: 3px solid rgba(255, 255, 255, 0.1);
@@ -251,9 +307,11 @@ form input {
   line-height: 77px;
   font-size: 19px; }
 
+/* line 186, C:/Projects/home/ebay/www/css/_basics.scss */
 form .form-bottom {
   margin-top: 42px; }
 
+/* line 187, C:/Projects/home/ebay/www/css/_basics.scss */
 form .button {
   display: block;
   transition: all 0.25s ease-in-out;
@@ -268,14 +326,17 @@ form .button {
   font-weight: 400;
   letter-spacing: 0.2px;
   margin-top: -50px; }
+  /* line 188, C:/Projects/home/ebay/www/css/_basics.scss */
   form .button.active {
     opacity: 1;
     pointer-events: all;
     transform: translate3d(0, 0, 0);
     margin-top: 0; }
 
+/* line 190, C:/Projects/home/ebay/www/css/_basics.scss */
 form .inputblock {
   position: relative; }
+  /* line 191, C:/Projects/home/ebay/www/css/_basics.scss */
   form .inputblock .more {
     display: inline-block;
     width: 35px;
@@ -296,6 +357,7 @@ form .inputblock {
     transition: all 0.25s ease-in-out;
     border-radius: 1000px;
     cursor: pointer; }
+    /* line 192, C:/Projects/home/ebay/www/css/_basics.scss */
     form .inputblock .more:after {
       content: "";
       display: inline-block;
@@ -307,16 +369,19 @@ form .inputblock {
       border-radius: 1000px;
       border: 1px solid #7072ba;
       box-sizing: border-box; }
+    /* line 193, C:/Projects/home/ebay/www/css/_basics.scss */
     form .inputblock .more__dot {
       width: 3px;
       height: 3px;
       background-color: #ffffff;
       border-radius: 1000px; }
 
+/* line 196, C:/Projects/home/ebay/www/css/_basics.scss */
 form.filled .inputblock .more {
   opacity: 1;
   pointer-events: all; }
 
+/* line 197, C:/Projects/home/ebay/www/css/_basics.scss */
 form .inputlink {
   position: absolute;
   left: 0;
@@ -334,10 +399,12 @@ form .inputlink {
   transition: all 0.25s ease-in-out;
   z-index: 1;
   word-break: break-all; }
+  /* line 198, C:/Projects/home/ebay/www/css/_basics.scss */
   form .inputlink.active {
     opacity: 1;
     pointer-events: all; }
 
+/* line 5, C:/Projects/home/ebay/www/css/default.scss */
 .header {
   background-color: #0a1439;
   color: #fff;
@@ -349,41 +416,53 @@ form .inputlink {
   z-index: 10;
   box-sizing: border-box;
   height: 60px; }
+  /* line 6, C:/Projects/home/ebay/www/css/default.scss */
   .header .container {
     display: flex;
     display: -webkit-flex;
     align-items: center;
     transition: all 0.25s ease-in-out; }
+  /* line 7, C:/Projects/home/ebay/www/css/default.scss */
   .header .afterlogo:before {
     opacity: 0.1; }
+  /* line 8, C:/Projects/home/ebay/www/css/default.scss */
   .header__logoblock {
     display: inline-flex;
     align-items: center; }
+  /* line 9, C:/Projects/home/ebay/www/css/default.scss */
   .header__text {
     display: none;
     color: #ffffff;
     font-size: 16.5px;
     font-weight: 300; }
+  /* line 10, C:/Projects/home/ebay/www/css/default.scss */
   .header__menu {
     display: inline-block;
     margin-left: 48px;
     flex: 1; }
+    /* line 11, C:/Projects/home/ebay/www/css/default.scss */
     .header__menu li {
       display: inline-block;
       margin-right: 54px;
       transition: all 0.25s ease-in-out;
       position: relative; }
+      /* line 12, C:/Projects/home/ebay/www/css/default.scss */
       .header__menu li:last-child {
         margin-right: 0; }
+      /* line 13, C:/Projects/home/ebay/www/css/default.scss */
       .header__menu li.active a {
         opacity: 0.49; }
+      /* line 15, C:/Projects/home/ebay/www/css/default.scss */
       .header__menu li:hover .header__submenu-wrapper {
         opacity: 1;
         pointer-events: all; }
+    /* line 18, C:/Projects/home/ebay/www/css/default.scss */
     .header__menu_full {
       display: none; }
+    /* line 19, C:/Projects/home/ebay/www/css/default.scss */
     .header__menu a:hover {
       opacity: 0.49; }
+  /* line 21, C:/Projects/home/ebay/www/css/default.scss */
   .header__submenu-wrapper {
     position: absolute;
     left: 50%;
@@ -394,21 +473,27 @@ form .inputlink {
     opacity: 0;
     pointer-events: none;
     transition: all 0.25s ease-in-out; }
+  /* line 23, C:/Projects/home/ebay/www/css/default.scss */
   .header__submenu li {
     margin-right: 0;
     display: block; }
+  /* line 24, C:/Projects/home/ebay/www/css/default.scss */
   .header__submenu a {
     display: block;
     padding: 14px 24px; }
+    /* line 25, C:/Projects/home/ebay/www/css/default.scss */
     .header__submenu a:hover {
       background-color: #1c2547;
       opacity: 1; }
+  /* line 28, C:/Projects/home/ebay/www/css/default.scss */
   .header__mail {
     font-size: 15px;
     font-family: "Helvetica Neue", Arial, sans-serif;
     letter-spacing: 0.03em; }
+    /* line 29, C:/Projects/home/ebay/www/css/default.scss */
     .header__mail:hover {
       opacity: 0.49; }
+  /* line 31, C:/Projects/home/ebay/www/css/default.scss */
   .header__adults {
     display: inline-block;
     font-weight: 300;
@@ -421,22 +506,27 @@ form .inputlink {
     line-height: 34px;
     text-align: center;
     font-size: 16.5px; }
+  /* line 32, C:/Projects/home/ebay/www/css/default.scss */
   .header__logo {
     display: inline-block;
     position: relative; }
+    /* line 33, C:/Projects/home/ebay/www/css/default.scss */
     .header__logo > img {
       position: absolute;
       left: 0;
       top: 0;
       transition: all 0.25s ease-in-out; }
+    /* line 35, C:/Projects/home/ebay/www/css/default.scss */
     .header__logo:hover > img {
       opacity: 0;
       pointer-events: none;
       transform: translate3d(-10px, 0, 0); }
+    /* line 36, C:/Projects/home/ebay/www/css/default.scss */
     .header__logo:hover .header__mainlink {
       opacity: 1;
       pointer-events: all;
       transform: translate3d(0, 0, 0); }
+  /* line 39, C:/Projects/home/ebay/www/css/default.scss */
   .header__mainlink {
     display: inline-block;
     color: #ffffff;
@@ -448,6 +538,7 @@ form .inputlink {
     pointer-events: none;
     transition: all 0.25s ease-in-out;
     transform: translate3d(10px, 0, 0); }
+    /* line 40, C:/Projects/home/ebay/www/css/default.scss */
     .header__mainlink span {
       display: inline-block;
       width: 36px;
@@ -456,6 +547,7 @@ form .inputlink {
       background-color: #ffffff;
       position: relative;
       margin-right: 13px; }
+      /* line 41, C:/Projects/home/ebay/www/css/default.scss */
       .header__mainlink span img {
         position: absolute;
         left: 0;
@@ -464,51 +556,67 @@ form .inputlink {
         bottom: 0;
         margin: auto;
         transform: rotate(180deg); }
+  /* line 45, C:/Projects/home/ebay/www/css/default.scss */
   .header.sticky {
     position: fixed;
     height: 204px;
     padding: 47px 0 52px; }
+  /* line 48, C:/Projects/home/ebay/www/css/default.scss */
   .header.invisible .container {
     opacity: 0;
     transform: translate3d(0, -10px, 0); }
+  /* line 51, C:/Projects/home/ebay/www/css/default.scss */
   .header.active {
     transform: translate3d(0, 204px, 0); }
+    /* line 52, C:/Projects/home/ebay/www/css/default.scss */
     .header.active .container {
       align-items: flex-start;
       position: relative;
       justify-content: space-between; }
+    /* line 53, C:/Projects/home/ebay/www/css/default.scss */
     .header.active .header__menu_short {
       display: none; }
+    /* line 54, C:/Projects/home/ebay/www/css/default.scss */
     .header.active .header__menu_full {
       display: inline-block;
       margin-left: 0;
       text-align: right; }
+      /* line 55, C:/Projects/home/ebay/www/css/default.scss */
       .header.active .header__menu_full li {
         display: block;
         margin-right: 0; }
+    /* line 57, C:/Projects/home/ebay/www/css/default.scss */
     .header.active .header__text {
       display: inline-block; }
+    /* line 58, C:/Projects/home/ebay/www/css/default.scss */
     .header.active .header__rightblock {
       position: absolute;
       left: 0;
       bottom: 1px; }
+    /* line 59, C:/Projects/home/ebay/www/css/default.scss */
     .header.active .header__adults {
       vertical-align: bottom;
       margin-left: 46px; }
+    /* line 60, C:/Projects/home/ebay/www/css/default.scss */
     .header.active .menu__column {
       margin-left: 72px; }
+      /* line 61, C:/Projects/home/ebay/www/css/default.scss */
       .header.active .menu__column:first-child {
         margin-left: 0; }
+  /* line 65, C:/Projects/home/ebay/www/css/default.scss */
   .header.fancybox-margin {
     margin-left: -8.5px; }
+  /* line 66, C:/Projects/home/ebay/www/css/default.scss */
   .header .afterlogo {
     padding-left: 28px; }
+  /* line 68, C:/Projects/home/ebay/www/css/default.scss */
   .header__burger {
     background-color: #0a1439;
     position: relative;
     width: 36px;
     height: 36px;
     border-radius: 1000px; }
+    /* line 69, C:/Projects/home/ebay/www/css/default.scss */
     .header__burger span {
       display: inline-block;
       position: absolute;
@@ -521,6 +629,7 @@ form .inputlink {
       width: 14px;
       height: 2px;
       transition: all 0.25s ease-in-out; }
+      /* line 70, C:/Projects/home/ebay/www/css/default.scss */
       .header__burger span:before, .header__burger span:after {
         content: "";
         display: inline-block;
@@ -529,96 +638,125 @@ form .inputlink {
         height: 2px;
         background-color: #fff;
         transition: all 0.25s ease-in-out; }
+      /* line 71, C:/Projects/home/ebay/www/css/default.scss */
       .header__burger span:before {
         transform: translate3d(0, 0, 0) rotate(45deg); }
+      /* line 72, C:/Projects/home/ebay/www/css/default.scss */
       .header__burger span:after {
         transform: translate3d(0, 0, 0) rotate(-45deg); }
 
 /* ################################ */
+/* line 79, C:/Projects/home/ebay/www/css/default.scss */
 .actions {
   position: absolute;
   left: 0;
   top: -144px;
   z-index: 2;
   transition: transform 0.25s ease-in-out; }
+  /* line 80, C:/Projects/home/ebay/www/css/default.scss */
   .actions .container {
     transition: all 0.25s ease-in-out; }
+  /* line 81, C:/Projects/home/ebay/www/css/default.scss */
   .actions.sticky {
     pointer-events: none;
     position: fixed;
     top: 0; }
+    /* line 82, C:/Projects/home/ebay/www/css/default.scss */
     .actions.sticky .searchblock {
       pointer-events: none;
       transform: translate3d(0, -100%, 0); }
+      /* line 83, C:/Projects/home/ebay/www/css/default.scss */
       .actions.sticky .searchblock__searchfield.active {
         transform: translate3d(0, 100%, 0);
         opacity: 1;
         pointer-events: all; }
+      /* line 84, C:/Projects/home/ebay/www/css/default.scss */
       .actions.sticky .searchblock__icon_search {
         opacity: 0;
         pointer-events: none; }
+      /* line 85, C:/Projects/home/ebay/www/css/default.scss */
       .actions.sticky .searchblock.active {
         transform: translate3d(0, 0, 0);
         pointer-events: all;
         background-color: #fff;
         opacity: 1; }
+        /* line 86, C:/Projects/home/ebay/www/css/default.scss */
         .actions.sticky .searchblock.active .searchblock__icon_search {
           width: 0;
           margin-right: 0; }
+  /* line 91, C:/Projects/home/ebay/www/css/default.scss */
   .actions.active .actionblock__icon_burger {
     opacity: 1;
     pointer-events: all; }
+  /* line 92, C:/Projects/home/ebay/www/css/default.scss */
   .actions.active .actionblock {
     padding: 12px 0;
     pointer-events: all; }
+    /* line 93, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock .container {
       width: 100%;
       padding: 0 24px; }
+    /* line 94, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock__icon {
       width: 36px;
       height: 36px; }
+    /* line 95, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock__watchreview {
       font-size: 16.5px;
       padding-right: 25px;
       padding-left: 50px; }
+    /* line 96, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock__watchreview:after {
       width: 2px; }
+    /* line 97, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock__writereview {
       margin-left: 21px;
       font-size: 16.5px;
       line-height: 2em; }
+    /* line 98, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock__icon_burger {
       left: 0; }
+    /* line 99, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock__icon_search, .actions.active .actionblock__icon_filter {
       opacity: 1;
       pointer-events: all;
       width: auto;
       height: auto; }
+      /* line 100, C:/Projects/home/ebay/www/css/default.scss */
       .actions.active .actionblock__icon_search:hover, .actions.active .actionblock__icon_filter:hover {
         opacity: 0.5; }
+    /* line 103, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock__icon_search.active {
       opacity: 0.5; }
+    /* line 107, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock__icon_filter.active img {
       opacity: 0;
       pointer-events: none; }
+    /* line 108, C:/Projects/home/ebay/www/css/default.scss */
     .actions.active .actionblock__icon_filter.active span {
       opacity: 1;
       pointer-events: all; }
+  /* line 113, C:/Projects/home/ebay/www/css/default.scss */
   .actions.fullheader {
     transform: translate3d(0, 204px, 0); }
+  /* line 114, C:/Projects/home/ebay/www/css/default.scss */
   .actions.fancybox-margin {
     margin-left: -8.5px; }
+  /* line 117, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock {
     height: 102px;
     padding: 0;
     display: flex;
     align-items: center; }
+  /* line 118, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock__watchreview {
     white-space: nowrap;
     transition: all 0.5s ease-in-out; }
+  /* line 119, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock__writereview {
     white-space: nowrap;
     transition: all 0.5s ease-in-out; }
+  /* line 120, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock__goodimage {
     transform: translate3d(0, -100px, 0);
     width: 120px;
@@ -631,6 +769,7 @@ form .inputlink {
     transition: all 0.25s ease-in-out;
     opacity: 0;
     pointer-events: none; }
+    /* line 121, C:/Projects/home/ebay/www/css/default.scss */
     .actions_detail .actionblock__goodimage img {
       position: absolute;
       left: 0;
@@ -642,6 +781,7 @@ form .inputlink {
       min-height: 100%;
       width: 0;
       object-fit: cover; }
+  /* line 123, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock__detailheading {
     transform: translate3d(0, -100px, 0);
     max-width: 0;
@@ -653,6 +793,7 @@ form .inputlink {
     opacity: 0;
     pointer-events: none;
     white-space: nowrap; }
+  /* line 124, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock__detailprice {
     transform: translate3d(0, -100px, 0);
     color: #bfc1ca;
@@ -662,69 +803,87 @@ form .inputlink {
     transition: all 0.25s ease-in-out;
     opacity: 0;
     pointer-events: none; }
+  /* line 125, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock .detail__button {
     transform: translate3d(0, -100px, 0);
     transition: all 0.25s ease-in-out;
     margin-right: 30px;
     opacity: 0;
     pointer-events: none; }
+  /* line 126, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock__rightside {
     display: flex;
     align-items: center; }
+  /* line 127, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock__login {
     margin-left: 0; }
+  /* line 128, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail .actionblock__account {
     flex-shrink: 0; }
+  /* line 130, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.active .actionblock {
     padding: 0; }
+  /* line 131, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.active .actionblock__icon {
     width: 40px;
     height: 40px; }
+  /* line 132, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.active .actionblock__watchreview {
     max-width: 40px;
     color: transparent;
     padding: 0; }
+    /* line 133, C:/Projects/home/ebay/www/css/default.scss */
     .actions_detail.active .actionblock__watchreview:after {
       opacity: 0; }
+  /* line 135, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.active .actionblock__writereview {
     max-width: 40px;
     color: transparent;
     font-size: 19px;
     line-height: 1em; }
+  /* line 136, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.active .actionblock__icon_like {
     max-width: 0;
     opacity: 0;
     pointer-events: none;
     margin: 0; }
+  /* line 137, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.active .actionblock__icon_notification {
     max-width: 0;
     opacity: 0;
     pointer-events: none;
     margin: 0; }
+  /* line 138, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.active .actionblock__username {
     white-space: nowrap;
     overflow: hidden;
     width: 40px; }
+  /* line 141, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.full .actionblock__goodimage {
     opacity: 1;
     pointer-events: all;
     transform: translate3d(0, 0, 0); }
+  /* line 142, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.full .actionblock__detailheading {
     transform: scale3d(1, 1, 1);
     opacity: 1;
     pointer-events: all; }
+  /* line 143, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.full .actionblock__detailprice {
     transform: scale3d(1, 1, 1);
     opacity: 1;
     pointer-events: all; }
+  /* line 144, C:/Projects/home/ebay/www/css/default.scss */
   .actions_detail.full .actionblock .detail__button {
     transform: scale3d(1, 1, 1);
     opacity: 1;
     pointer-events: all; }
+    /* line 145, C:/Projects/home/ebay/www/css/default.scss */
     .actions_detail.full .actionblock .detail__button:hover {
       opacity: 0.7; }
 
 /* ################################ */
+/* line 153, C:/Projects/home/ebay/www/css/default.scss */
 .actionblock {
   box-shadow: 0 2px 30px rgba(25, 33, 44, 0.04);
   padding: 31px 0;
@@ -732,17 +891,21 @@ form .inputlink {
   transition: all 0.25s ease-in-out;
   position: relative;
   z-index: 3; }
+  /* line 154, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock.noshadow {
     box-shadow: none; }
+  /* line 155, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: all 0.25s ease-in-out;
     box-sizing: border-box; }
+  /* line 156, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__leftside {
     display: inline-flex;
     align-items: center; }
+  /* line 157, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__icon {
     display: inline-block;
     width: 40px;
@@ -750,6 +913,7 @@ form .inputlink {
     border-radius: 1000px;
     vertical-align: middle;
     transition: all 0.25s ease-in-out; }
+    /* line 158, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__icon_burger {
       position: absolute;
       left: -58px;
@@ -760,6 +924,7 @@ form .inputlink {
       opacity: 0;
       pointer-events: none;
       transition: all 0.25s ease-in-out; }
+      /* line 159, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_burger span {
         display: inline-block;
         position: absolute;
@@ -772,6 +937,7 @@ form .inputlink {
         width: 14px;
         height: 2px;
         transition: all 0.25s ease-in-out; }
+        /* line 160, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_burger span:before, .actionblock__icon_burger span:after {
           content: "";
           display: inline-block;
@@ -780,16 +946,22 @@ form .inputlink {
           height: 2px;
           background-color: #fff;
           transition: all 0.25s ease-in-out; }
+        /* line 161, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_burger span:before {
           transform: translate3d(0, -5px, 0); }
+        /* line 162, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_burger span:after {
           transform: translate3d(0, 5px, 0); }
+      /* line 164, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_burger.active span {
         background-color: transparent; }
+        /* line 165, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_burger.active span:before {
           transform: translate3d(0, 0, 0) rotate(45deg); }
+        /* line 166, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_burger.active span:after {
           transform: translate3d(0, 0, 0) rotate(-45deg); }
+    /* line 169, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__icon_plus {
       box-shadow: 0 4px 12px rgba(153, 204, 0, 0.3);
       background-color: #99cc00;
@@ -798,6 +970,7 @@ form .inputlink {
       margin-right: 14px;
       position: relative;
       margin-top: -3px; }
+      /* line 170, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_plus span {
         display: inline-block;
         position: absolute;
@@ -809,6 +982,7 @@ form .inputlink {
         background-color: #fff;
         width: 14px;
         height: 2px; }
+        /* line 171, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_plus span:after {
           content: "";
           display: inline-block;
@@ -817,6 +991,7 @@ form .inputlink {
           height: 2px;
           background-color: #fff;
           transform: rotate(90deg); }
+    /* line 174, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__icon_search, .actionblock__icon_filter {
       opacity: 0;
       pointer-events: none;
@@ -825,6 +1000,7 @@ form .inputlink {
       width: auto;
       height: auto;
       position: relative; }
+      /* line 175, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_search span, .actionblock__icon_filter span {
         position: absolute;
         left: 0;
@@ -840,6 +1016,7 @@ form .inputlink {
         opacity: 0;
         pointer-events: none;
         transition: all 0.25s ease-in-out; }
+        /* line 176, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_search span:after, .actionblock__icon_filter span:after {
           content: "";
           display: inline-block;
@@ -847,10 +1024,12 @@ form .inputlink {
           height: 2px;
           background-color: #0a1439;
           transform: rotate(90deg); }
+    /* line 179, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__icon_like, .actionblock__icon_notification {
       background-color: #f0f0f0;
       position: relative;
       margin-right: 12px; }
+      /* line 180, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_like img, .actionblock__icon_like svg, .actionblock__icon_notification img, .actionblock__icon_notification svg {
         position: absolute;
         left: 0;
@@ -859,17 +1038,23 @@ form .inputlink {
         bottom: 0;
         margin: auto;
         transition: all 0.25s ease-in-out; }
+    /* line 182, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__icon_like {
       transition: all 0.25s ease-in-out; }
+      /* line 183, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_like:hover, .actionblock__icon_like.active {
         background-color: #e8f0d1;
         border-color: #e8f0d1; }
+        /* line 184, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_like:hover svg #icon_like, .actionblock__icon_like.active svg #icon_like {
           fill: #99cc00; }
+    /* line 187, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__icon svg #icon_like {
       transition: all 0.25s ease-in-out; }
+    /* line 188, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__icon_notification {
       text-align: center; }
+      /* line 189, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_notification span {
         font-size: 14px;
         color: #fff;
@@ -877,19 +1062,24 @@ form .inputlink {
         opacity: 0;
         pointer-events: none;
         transition: all 0.25s ease-in-out; }
+      /* line 190, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_notification.active {
         background-color: #99cc01; }
+        /* line 191, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_notification.active img {
           opacity: 0;
           pointer-events: none; }
+        /* line 192, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_notification.active span {
           opacity: 1;
           pointer-events: all; }
+    /* line 195, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__icon_avatar {
       position: relative;
       overflow: hidden;
       margin-right: 12px;
       transition: all 0.25s ease-in-out; }
+      /* line 196, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_avatar img {
         position: absolute;
         left: 0;
@@ -902,6 +1092,7 @@ form .inputlink {
         width: 0;
         object-fit: cover;
         transition: all 0.25s ease-in-out; }
+      /* line 197, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__icon_avatar span {
         display: inline-block;
         position: absolute;
@@ -917,6 +1108,7 @@ form .inputlink {
         pointer-events: none;
         transform: rotate(45deg);
         transition: all 0.25s ease-in-out; }
+        /* line 198, C:/Projects/home/ebay/www/css/default.scss */
         .actionblock__icon_avatar span:after {
           content: "";
           display: inline-block;
@@ -925,12 +1117,14 @@ form .inputlink {
           height: 2px;
           background-color: #fff;
           transform: rotate(90deg); }
+  /* line 202, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__username {
     color: #262627;
     font-size: 16.5px;
     font-weight: 300;
     display: inline-block;
     vertical-align: middle; }
+  /* line 203, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__watchreview {
     font-size: 26.5px;
     color: #262627;
@@ -939,6 +1133,7 @@ form .inputlink {
     padding-right: 30px;
     transition: all 0.3s ease-in-out;
     letter-spacing: -0.01em; }
+    /* line 204, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__watchreview:after {
       content: "";
       position: absolute;
@@ -950,6 +1145,7 @@ form .inputlink {
       height: 30px;
       background-color: #262627;
       opacity: 0.1; }
+  /* line 206, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__writereview {
     margin-left: 30px;
     font-size: 19px;
@@ -959,27 +1155,35 @@ form .inputlink {
     box-sizing: border-box;
     padding-top: 3px;
     height: 40px; }
+  /* line 209, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__account_logged {
     display: none;
     position: relative; }
+  /* line 211, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__account.active .actionblock__userinfo {
     opacity: 1;
     pointer-events: all; }
+  /* line 212, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__account.active .actionblock__icon_avatar {
     background-color: #0a1439; }
+    /* line 213, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__account.active .actionblock__icon_avatar img {
       opacity: 0;
       pointer-events: none; }
+    /* line 214, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__account.active .actionblock__icon_avatar span {
       opacity: 1;
       pointer-events: all; }
+  /* line 218, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__register {
     color: #262627;
     font-size: 16.5px;
     font-weight: 300;
     position: relative; }
+    /* line 219, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__register:hover {
       opacity: 0.6; }
+    /* line 220, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__register:after {
       content: "";
       display: inline-block;
@@ -992,6 +1196,7 @@ form .inputlink {
       top: 0;
       bottom: 0;
       margin: auto; }
+  /* line 222, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__login {
     display: inline-block;
     color: #262627;
@@ -1002,8 +1207,10 @@ form .inputlink {
     border-radius: 1000px;
     padding: 0 42px;
     margin-left: 62px; }
+    /* line 223, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__login:hover {
       opacity: 0.6; }
+  /* line 225, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__userinfo {
     position: absolute;
     right: -12px;
@@ -1013,10 +1220,12 @@ form .inputlink {
     pointer-events: none;
     transition: all 0.25s ease-in-out;
     z-index: 2; }
+  /* line 226, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__inputblock {
     width: 236px;
     position: relative;
     margin-left: 20px; }
+  /* line 227, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock .more {
     display: inline-block;
     width: 35px;
@@ -1035,6 +1244,7 @@ form .inputlink {
     transition: all 0.25s ease-in-out;
     border-radius: 1000px;
     cursor: pointer; }
+    /* line 228, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock .more:after {
       content: "";
       display: inline-block;
@@ -1046,17 +1256,20 @@ form .inputlink {
       border-radius: 1000px;
       border: 1px solid #dadbe0;
       box-sizing: border-box; }
+    /* line 229, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock .more__dot {
       width: 3px;
       height: 3px;
       background-color: #afb0b7;
       border-radius: 1000px; }
+  /* line 231, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__sellerlink {
     white-space: nowrap;
     direction: rtl;
     line-height: 36px;
     font-size: 16px;
     overflow: hidden; }
+  /* line 232, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__changelink {
     display: inline-block;
     font-size: 16.5px;
@@ -1066,6 +1279,7 @@ form .inputlink {
     border-radius: 1000px;
     padding: 0 30px;
     margin-left: 20px; }
+  /* line 233, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__inputlink {
     position: absolute;
     left: 0;
@@ -1084,23 +1298,28 @@ form .inputlink {
     z-index: 1;
     word-break: break-all;
     color: #fff; }
+    /* line 234, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__inputlink.active {
       opacity: 1;
       pointer-events: all; }
+  /* line 236, C:/Projects/home/ebay/www/css/default.scss */
   .actionblock__commentsbutton {
     display: inline-flex;
     border: 1px solid rgba(206, 207, 214, 0.69);
     border-radius: 1000px; }
+    /* line 237, C:/Projects/home/ebay/www/css/default.scss */
     .actionblock__commentsbutton p {
       line-height: 38px;
       font-size: 16.5px;
       font-weight: 300;
       padding: 0 30px; }
+      /* line 238, C:/Projects/home/ebay/www/css/default.scss */
       .actionblock__commentsbutton p:last-child {
         border-left: 1px solid rgba(206, 207, 214, 0.69);
         padding: 0 16px; }
 
 /* ################################ */
+/* line 245, C:/Projects/home/ebay/www/css/default.scss */
 .firstscreen {
   color: #ffffff;
   background-image: linear-gradient(180deg, #5356ad 0%, #474ba0 100%);
@@ -1114,57 +1333,75 @@ form .inputlink {
   transition: all 1.2s cubic-bezier(0.25, 1, 0.25, 1);
   top: 0;
   opacity: 1; }
+  /* line 246, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen__content {
     width: 100%; }
+  /* line 247, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen .container.small {
     position: relative;
     padding-right: 550px; }
+    /* line 248, C:/Projects/home/ebay/www/css/default.scss */
     .firstscreen .container.small p.heading {
       font-size: 26px;
       font-weight: 300;
       line-height: 31px; }
+    /* line 249, C:/Projects/home/ebay/www/css/default.scss */
     .firstscreen .container.small p.heading + h1 {
       margin-top: 30px; }
+    /* line 250, C:/Projects/home/ebay/www/css/default.scss */
     .firstscreen .container.small img {
       position: absolute;
       top: -34px;
       right: 5px;
       width: 446px; }
+  /* line 252, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen form {
     margin-top: 9px; }
+  /* line 253, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen .header {
     height: 204px;
     padding: 47px 0 52px; }
+  /* line 254, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen__actions {
     top: 0;
     width: 100%; }
+    /* line 255, C:/Projects/home/ebay/www/css/default.scss */
     .firstscreen__actions.sticky {
       position: absolute; }
+  /* line 257, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen .actionblock {
     background-color: transparent;
     box-shadow: none;
     padding: 16px 0 !important; }
+    /* line 258, C:/Projects/home/ebay/www/css/default.scss */
     .firstscreen .actionblock__watchreview {
       color: #fff; }
+      /* line 259, C:/Projects/home/ebay/www/css/default.scss */
       .firstscreen .actionblock__watchreview:after {
         display: none; }
+  /* line 262, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen__cardheading {
     font-size: 26px;
     font-weight: 300;
     margin-top: 36px; }
+  /* line 263, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen .container_navcards {
     margin-top: 39px; }
+  /* line 264, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen__cards {
     display: flex;
     justify-content: space-between;
     transition: all 1s ease-in-out; }
+  /* line 265, C:/Projects/home/ebay/www/css/default.scss */
   .firstscreen .sellercard {
     flex-shrink: 0;
     margin-right: 24px; }
+    /* line 266, C:/Projects/home/ebay/www/css/default.scss */
     .firstscreen .sellercard:last-child {
       margin-right: 0; }
 
 /* ################################ */
+/* line 272, C:/Projects/home/ebay/www/css/default.scss */
 div.content {
   background-color: #f4f5f9;
   position: relative;
@@ -1175,19 +1412,23 @@ div.content {
   margin-top: 0;
   transition: all 1.2s cubic-bezier(0.25, 1, 0.25, 1);
   display: none; }
+  /* line 273, C:/Projects/home/ebay/www/css/default.scss */
   div.content .header {
     height: 204px;
     padding: 47px 0 52px; }
+  /* line 274, C:/Projects/home/ebay/www/css/default.scss */
   div.content .actionblock {
     background-color: transparent;
     box-shadow: none; }
 
+/* line 278, C:/Projects/home/ebay/www/css/default.scss */
 div.bigwrapper {
   float: left;
   width: 100%;
   overflow-x: hidden; }
 
 /* ################################ */
+/* line 282, C:/Projects/home/ebay/www/css/default.scss */
 .topblock {
   position: fixed !important;
   top: -50px;
@@ -1203,23 +1444,29 @@ div.bigwrapper {
   pointer-events: none;
   /* ######## */
   /* ######## */ }
+  /* line 283, C:/Projects/home/ebay/www/css/default.scss */
   .topblock.visible {
     top: 0;
     opacity: 1;
     pointer-events: all; }
+  /* line 285, C:/Projects/home/ebay/www/css/default.scss */
   .topblock.active {
     height: 464px;
     pointer-events: all; }
+    /* line 286, C:/Projects/home/ebay/www/css/default.scss */
     .topblock.active aside {
       opacity: 0;
       pointer-events: none;
       top: -20px; }
+    /* line 287, C:/Projects/home/ebay/www/css/default.scss */
     .topblock.active form {
       opacity: 1;
       pointer-events: all;
       top: 100px; }
+      /* line 288, C:/Projects/home/ebay/www/css/default.scss */
       .topblock.active form .button + .button {
         pointer-events: all; }
+  /* line 294, C:/Projects/home/ebay/www/css/default.scss */
   .topblock aside {
     width: 100%;
     position: relative;
@@ -1227,12 +1474,15 @@ div.bigwrapper {
     pointer-events: all;
     transition: all .35s ease-in-out;
     top: 0; }
+    /* line 295, C:/Projects/home/ebay/www/css/default.scss */
     .topblock aside .leftside {
       float: left;
       position: relative; }
+      /* line 296, C:/Projects/home/ebay/www/css/default.scss */
       .topblock aside .leftside > * {
         display: inline-block;
         vertical-align: middle; }
+      /* line 297, C:/Projects/home/ebay/www/css/default.scss */
       .topblock aside .leftside p.link {
         max-width: 312px;
         direction: rtl;
@@ -1241,6 +1491,7 @@ div.bigwrapper {
         color: #a8aad6;
         position: relative;
         top: 1px; }
+        /* line 298, C:/Projects/home/ebay/www/css/default.scss */
         .topblock aside .leftside p.link:after {
           content: "";
           display: block;
@@ -1254,10 +1505,12 @@ div.bigwrapper {
           z-index: 1;
           left: 0;
           top: 0; }
+        /* line 300, C:/Projects/home/ebay/www/css/default.scss */
         .topblock aside .leftside p.link:hover + p.tooltip {
           top: 70px;
           opacity: 1;
           pointer-events: all; }
+      /* line 302, C:/Projects/home/ebay/www/css/default.scss */
       .topblock aside .leftside p.tooltip {
         background-color: #43456c;
         color: white;
@@ -1273,12 +1526,14 @@ div.bigwrapper {
         opacity: 0;
         pointer-events: none;
         transition: all 0.5s cubic-bezier(0.25, 1, 0.25, 1); }
+        /* line 303, C:/Projects/home/ebay/www/css/default.scss */
         .topblock aside .leftside p.tooltip span {
           max-width: 100%;
           white-space: nowrap;
           text-overflow: ellipsis;
           overflow: hidden;
           display: inline-block; }
+        /* line 304, C:/Projects/home/ebay/www/css/default.scss */
         .topblock aside .leftside p.tooltip:after {
           content: "";
           display: block;
@@ -1290,14 +1545,18 @@ div.bigwrapper {
           border-style: solid;
           border-width: 0 6px 6px 6px;
           border-color: transparent transparent #43456c transparent; }
+      /* line 306, C:/Projects/home/ebay/www/css/default.scss */
       .topblock aside .leftside .button {
         margin-left: 21px; }
+    /* line 309, C:/Projects/home/ebay/www/css/default.scss */
     .topblock aside > .button {
       margin-right: 5px;
       float: right; }
+  /* line 314, C:/Projects/home/ebay/www/css/default.scss */
   .topblock .button.review {
     padding-left: 27px;
     padding-right: 27px; }
+  /* line 316, C:/Projects/home/ebay/www/css/default.scss */
   .topblock form {
     text-align: center;
     width: 570px;
@@ -1309,17 +1568,22 @@ div.bigwrapper {
     left: 50%;
     top: 70px;
     margin-left: -285px; }
+    /* line 317, C:/Projects/home/ebay/www/css/default.scss */
     .topblock form p.huge {
       color: white; }
+    /* line 318, C:/Projects/home/ebay/www/css/default.scss */
     .topblock form .inputblock {
       margin-top: 25px; }
+    /* line 319, C:/Projects/home/ebay/www/css/default.scss */
     .topblock form .buttons {
       margin-top: 48px; }
+    /* line 320, C:/Projects/home/ebay/www/css/default.scss */
     .topblock form .button {
       margin-top: 0;
       width: 186px;
       display: inline-block;
       vertical-align: top; }
+      /* line 321, C:/Projects/home/ebay/www/css/default.scss */
       .topblock form .button + .button {
         margin-left: 30px;
         line-height: 48px;
@@ -1327,6 +1591,7 @@ div.bigwrapper {
         opacity: 1; }
 
 /* ################################ */
+/* line 328, C:/Projects/home/ebay/www/css/default.scss */
 .second {
   position: relative;
   padding: 130px 0 110px;
@@ -1335,46 +1600,60 @@ div.bigwrapper {
   display: flex;
   align-items: center;
   top: 0; }
+  /* line 330, C:/Projects/home/ebay/www/css/default.scss */
   .second.good .second__top > img:nth-of-type(1) {
     display: block; }
+  /* line 331, C:/Projects/home/ebay/www/css/default.scss */
   .second.good .second__top > img:nth-of-type(2) {
     display: none; }
+  /* line 334, C:/Projects/home/ebay/www/css/default.scss */
   .second.bad .second__top > img:nth-of-type(1) {
     display: none; }
+  /* line 335, C:/Projects/home/ebay/www/css/default.scss */
   .second.bad .second__top > img:nth-of-type(2) {
     display: block; }
+  /* line 338, C:/Projects/home/ebay/www/css/default.scss */
   .second__top {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center; }
+    /* line 339, C:/Projects/home/ebay/www/css/default.scss */
     .second__top > img {
       height: 269px; }
+    /* line 340, C:/Projects/home/ebay/www/css/default.scss */
     .second__top > div {
       display: inline-block;
       vertical-align: top;
       width: 277px; }
+      /* line 341, C:/Projects/home/ebay/www/css/default.scss */
       .second__top > div:nth-of-type(1) {
         width: 203px; }
+    /* line 343, C:/Projects/home/ebay/www/css/default.scss */
     .second__top .button {
       margin-top: 60px; }
+  /* line 345, C:/Projects/home/ebay/www/css/default.scss */
   .second__content {
     width: 100%; }
+  /* line 346, C:/Projects/home/ebay/www/css/default.scss */
   .second__blockheading {
     opacity: 0.5;
     color: #494a4c;
     font-size: 20px;
     font-weight: 300; }
+  /* line 347, C:/Projects/home/ebay/www/css/default.scss */
   .second__blocktext {
     font-size: 42px;
     font-weight: 300;
     margin-top: 18px;
     line-height: 1.26em; }
+  /* line 348, C:/Projects/home/ebay/www/css/default.scss */
   .second__sellerpage {
     font-size: 19px;
     font-weight: 300;
     letter-spacing: 0.48px;
     margin-top: 22px; }
+  /* line 349, C:/Projects/home/ebay/www/css/default.scss */
   .second__addtofav {
     display: inline-block;
     font-size: 16.5px;
@@ -1384,6 +1663,7 @@ div.bigwrapper {
     border-radius: 1000px;
     padding: 0 30px;
     margin-top: 24px; }
+  /* line 350, C:/Projects/home/ebay/www/css/default.scss */
   .second__goods-head {
     margin-top: 48px;
     border-top: 1px solid #e5e6e9;
@@ -1391,20 +1671,25 @@ div.bigwrapper {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+  /* line 351, C:/Projects/home/ebay/www/css/default.scss */
   .second__goods-heading {
     font-size: 26px;
     font-weight: 300;
     letter-spacing: 0.015em; }
+  /* line 352, C:/Projects/home/ebay/www/css/default.scss */
   .second__goods-share {
     display: flex;
     align-items: center; }
+  /* line 353, C:/Projects/home/ebay/www/css/default.scss */
   .second__goods-sharetext {
     opacity: 0.5;
     color: #494a4c;
     font-size: 20px;
     font-weight: 300; }
+  /* line 354, C:/Projects/home/ebay/www/css/default.scss */
   .second__goods-social {
     margin-left: 62px; }
+    /* line 355, C:/Projects/home/ebay/www/css/default.scss */
     .second__goods-social .icon {
       margin-right: 13px;
       vertical-align: middle;
@@ -1412,33 +1697,46 @@ div.bigwrapper {
       height: 50px;
       border-radius: 1000px;
       border: 1px solid rgba(206, 207, 214, 0.69); }
+      /* line 356, C:/Projects/home/ebay/www/css/default.scss */
       .second__goods-social .icon:hover {
         border-color: #cecfd6; }
+        /* line 357, C:/Projects/home/ebay/www/css/default.scss */
         .second__goods-social .icon:hover:after {
           opacity: 0.7; }
+      /* line 359, C:/Projects/home/ebay/www/css/default.scss */
       .second__goods-social .icon:after {
         background-color: transparent; }
+      /* line 360, C:/Projects/home/ebay/www/css/default.scss */
       .second__goods-social .icon:last-child {
         margin-right: 0; }
+      /* line 361, C:/Projects/home/ebay/www/css/default.scss */
       .second__goods-social .icon.vk:after {
         content: url("../img/vk.svg"); }
+      /* line 362, C:/Projects/home/ebay/www/css/default.scss */
       .second__goods-social .icon.facebook:after {
         content: url("../img/facebook.svg"); }
+      /* line 363, C:/Projects/home/ebay/www/css/default.scss */
       .second__goods-social .icon.twitter:after {
         content: url("../img/twitter.svg"); }
+      /* line 364, C:/Projects/home/ebay/www/css/default.scss */
       .second__goods-social .icon.ok:after {
         content: url("../img/ok.svg"); }
+      /* line 365, C:/Projects/home/ebay/www/css/default.scss */
       .second__goods-social .icon.mailru:after {
         content: url("../img/mailru.svg"); }
+  /* line 368, C:/Projects/home/ebay/www/css/default.scss */
   .second__goods-cards {
     display: flex;
     transition: all 1s ease-in-out;
     padding-bottom: 46px; }
+  /* line 369, C:/Projects/home/ebay/www/css/default.scss */
   .second__card {
     flex-shrink: 0;
     margin-right: 4px; }
+    /* line 370, C:/Projects/home/ebay/www/css/default.scss */
     .second__card:last-child {
       margin-right: 0; }
+  /* line 372, C:/Projects/home/ebay/www/css/default.scss */
   .second__detail-button {
     display: block;
     background-color: #ff73b3;
@@ -1452,22 +1750,28 @@ div.bigwrapper {
     font-size: 16.5px;
     font-weight: 400;
     letter-spacing: 0.17px; }
+    /* line 373, C:/Projects/home/ebay/www/css/default.scss */
     .second__detail-button:before, .second__detail-button:after {
       content: url("../img/roseshape.png");
       position: absolute;
       top: 0;
       height: 100%; }
+    /* line 374, C:/Projects/home/ebay/www/css/default.scss */
     .second__detail-button:before {
       right: 100%; }
+    /* line 375, C:/Projects/home/ebay/www/css/default.scss */
     .second__detail-button:after {
       left: 100%;
       transform: rotateY(180deg); }
+  /* line 377, C:/Projects/home/ebay/www/css/default.scss */
   .second .container_navcards {
     margin-top: 17px; }
+  /* line 378, C:/Projects/home/ebay/www/css/default.scss */
   .second .cardnav {
     transform: translateY(-23px); }
 
 /* ################################ */
+/* line 383, C:/Projects/home/ebay/www/css/default.scss */
 .table {
   margin-top: 61px;
   position: relative;
@@ -1476,23 +1780,29 @@ div.bigwrapper {
   border-radius: 10px;
   background-color: #fff;
   padding: 29px 0 44px; }
+  /* line 384, C:/Projects/home/ebay/www/css/default.scss */
   .table li {
     padding: 30px 0;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #f2f3f6;
     justify-content: space-between; }
+    /* line 385, C:/Projects/home/ebay/www/css/default.scss */
     .table li:last-child {
       border-bottom: none; }
+    /* line 386, C:/Projects/home/ebay/www/css/default.scss */
     .table li p {
       color: #7c7d98; }
+    /* line 387, C:/Projects/home/ebay/www/css/default.scss */
     .table li p:first-child {
       width: 272px;
       text-indent: -2px; }
+    /* line 389, C:/Projects/home/ebay/www/css/default.scss */
     .table li .icon:after {
       width: 42px;
       height: 42px;
       border-radius: 18px; }
+    /* line 390, C:/Projects/home/ebay/www/css/default.scss */
     .table li .icon.avatar:after {
       width: 60px;
       height: 60px;
@@ -1500,38 +1810,48 @@ div.bigwrapper {
       background-image: url(../img/avatar.png);
       background-size: cover;
       background-position: center; }
+    /* line 391, C:/Projects/home/ebay/www/css/default.scss */
     .table li .icon.happy:after {
       content: url("../img/smile.svg");
       background-color: #50e3c2;
       box-shadow: 0 15px 35px rgba(79, 227, 194, 0.33); }
+    /* line 392, C:/Projects/home/ebay/www/css/default.scss */
     .table li .icon.sad:after {
       content: url("../img/smile2.svg");
       background-color: #ff7373;
       box-shadow: 0 15px 35px rgba(255, 114, 114, 0.33); }
+    /* line 393, C:/Projects/home/ebay/www/css/default.scss */
     .table li .icon.displeased:after {
       content: url("../img/smile3.svg");
       background-color: #ffc744;
       box-shadow: 0 15px 35px rgba(243, 209, 79, 0.33); }
+    /* line 394, C:/Projects/home/ebay/www/css/default.scss */
     .table li .icon.pin:after {
       content: url("../img/pin.svg"); }
+    /* line 396, C:/Projects/home/ebay/www/css/default.scss */
     .table li p.huge {
       width: 193px;
       color: #43456c;
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis; }
+      /* line 397, C:/Projects/home/ebay/www/css/default.scss */
       .table li p.huge span {
         font-size: 17px;
         display: block; }
+    /* line 399, C:/Projects/home/ebay/www/css/default.scss */
     .table li p:last-child {
       width: 557px; }
 
 /* ################################ */
+/* line 405, C:/Projects/home/ebay/www/css/default.scss */
 .share {
   margin-top: 108px; }
+  /* line 406, C:/Projects/home/ebay/www/css/default.scss */
   .share .container.small {
     display: flex;
     justify-content: space-between; }
+  /* line 407, C:/Projects/home/ebay/www/css/default.scss */
   .share .checkpage {
     width: 487px;
     height: 60px;
@@ -1546,60 +1866,78 @@ div.bigwrapper {
     box-sizing: border-box;
     cursor: pointer;
     transition: all .25s ease-in-out; }
+    /* line 408, C:/Projects/home/ebay/www/css/default.scss */
     .share .checkpage:hover {
       background-color: #e85c9c; }
+    /* line 409, C:/Projects/home/ebay/www/css/default.scss */
     .share .checkpage p {
       color: white; }
+    /* line 410, C:/Projects/home/ebay/www/css/default.scss */
     .share .checkpage img {
       position: absolute;
       right: 18px;
       top: 0;
       bottom: 0;
       margin: auto; }
+  /* line 413, C:/Projects/home/ebay/www/css/default.scss */
   .share .social .icon {
     margin-right: 25px;
     margin-top: 33px;
     vertical-align: middle; }
+    /* line 414, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon:last-child {
       margin-right: 0; }
+    /* line 415, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.vk:after {
       content: url("../img/vk.svg");
       background-color: #527eae;
       box-shadow: 0 15px 35px rgba(81, 126, 174, 0.33); }
+    /* line 416, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.vk:hover:after {
       background-color: #47719e; }
+    /* line 418, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.facebook:after {
       content: url("../img/facebook.svg");
       background-color: #3e67bf;
       box-shadow: 0 15px 35px rgba(62, 103, 191, 0.33); }
+    /* line 419, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.facebook:hover:after {
       background-color: #2f55a7; }
+    /* line 421, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.twitter:after {
       content: url("../img/twitter.svg");
       background-color: #1da1f2;
       box-shadow: 0 15px 35px rgba(29, 161, 242, 0.33); }
+    /* line 422, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.twitter:hover:after {
       background-color: #128bd6; }
+    /* line 424, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.ok:after {
       content: url("../img/ok.svg");
       background-color: #fe9e50;
       box-shadow: 0 15px 35px rgba(254, 158, 80, 0.33); }
+    /* line 425, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.ok:hover:after {
       background-color: #e68434; }
+    /* line 427, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.mailru:after {
       content: url("../img/mailru.svg");
       background-color: #168de2;
       box-shadow: 0 15px 35px rgba(22, 141, 226, 0.33); }
+    /* line 428, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.mailru:hover:after {
       background-color: #0e79c5; }
+    /* line 430, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.google:after {
       content: url("../img/google.svg");
       background-color: #cc4a41;
       box-shadow: 0 15px 35px rgba(204, 73, 65, 0.33); }
+    /* line 431, C:/Projects/home/ebay/www/css/default.scss */
     .share .social .icon.google:hover:after {
       background-color: #ce3329; }
 
 /* ################################ */
+/* line 439, C:/Projects/home/ebay/www/css/default.scss */
 .goods {
   margin-top: 122px;
   background-color: white;
@@ -1607,92 +1945,119 @@ div.bigwrapper {
   padding: 78px 0 82px;
   box-sizing: border-box;
   text-align: center; }
+  /* line 440, C:/Projects/home/ebay/www/css/default.scss */
   .goods .top {
     display: flex;
     justify-content: space-between; }
+    /* line 441, C:/Projects/home/ebay/www/css/default.scss */
     .goods .top .rose {
       font-weight: 500;
       opacity: 1; }
+      /* line 442, C:/Projects/home/ebay/www/css/default.scss */
       .goods .top .rose a span {
         opacity: 0.5;
         transition: all .25s ease-in-out; }
+      /* line 444, C:/Projects/home/ebay/www/css/default.scss */
       .goods .top .rose:hover span {
         opacity: 1; }
+      /* line 445, C:/Projects/home/ebay/www/css/default.scss */
       .goods .top .rose:hover img {
         left: 10px; }
+      /* line 447, C:/Projects/home/ebay/www/css/default.scss */
       .goods .top .rose img {
         margin-left: 10px;
         position: relative;
         left: 0;
         transition: all .25s ease-in-out; }
+  /* line 451, C:/Projects/home/ebay/www/css/default.scss */
   .goods .goods-cards {
     display: flex;
     justify-content: space-between;
     margin-top: 50px; }
+    /* line 452, C:/Projects/home/ebay/www/css/default.scss */
     .goods .goods-cards a {
       width: 263px;
       display: inline-block; }
+      /* line 454, C:/Projects/home/ebay/www/css/default.scss */
       .goods .goods-cards a:hover p {
         color: #787aa7; }
+      /* line 456, C:/Projects/home/ebay/www/css/default.scss */
       .goods .goods-cards a .image {
         height: 263px;
         border-radius: 10px;
         background-size: cover;
         background-position: center; }
+      /* line 457, C:/Projects/home/ebay/www/css/default.scss */
       .goods .goods-cards a p {
         padding: 0 15px;
         text-align: left;
         transition: all .25s ease-in-out; }
+        /* line 458, C:/Projects/home/ebay/www/css/default.scss */
         .goods .goods-cards a p.name {
           margin-top: 25px; }
+          /* line 459, C:/Projects/home/ebay/www/css/default.scss */
           .goods .goods-cards a p.name + p {
             opacity: 0.7;
             margin-top: 5px; }
+  /* line 465, C:/Projects/home/ebay/www/css/default.scss */
   .goods a.button {
     background-color: rgba(255, 115, 179, 0.12);
     color: #ff73b3;
     box-shadow: none;
     font-weight: 500;
     margin-top: 49px; }
+    /* line 466, C:/Projects/home/ebay/www/css/default.scss */
     .goods a.button:hover {
       background-color: rgba(255, 115, 179, 0.18); }
 
 /* ################################ */
+/* line 472, C:/Projects/home/ebay/www/css/default.scss */
 .reviews {
   background-color: white;
   border-radius: 10px;
   margin-top: 30px;
   padding: 58px 0 32px; }
+  /* line 473, C:/Projects/home/ebay/www/css/default.scss */
   .reviews #seller {
     width: 175px; }
+  /* line 474, C:/Projects/home/ebay/www/css/default.scss */
   .reviews select {
     width: 157px; }
+  /* line 475, C:/Projects/home/ebay/www/css/default.scss */
   .reviews label {
     margin-left: 40px;
     margin-top: 3px; }
+    /* line 476, C:/Projects/home/ebay/www/css/default.scss */
     .reviews label:first-child {
       margin-left: 0; }
+  /* line 479, C:/Projects/home/ebay/www/css/default.scss */
   .reviews .icon.neutral:after {
     content: url("../img/neutral.svg"); }
+  /* line 480, C:/Projects/home/ebay/www/css/default.scss */
   .reviews .icon.plus:after {
     content: url("../img/plus.svg");
     background-color: #50e3c2;
     box-shadow: 0 15px 35px rgba(79, 227, 194, 0.33); }
+  /* line 481, C:/Projects/home/ebay/www/css/default.scss */
   .reviews .icon.minus:after {
     content: url("../img/minus.svg");
     background-color: #ff7373;
     box-shadow: 0 15px 35px rgba(255, 114, 114, 0.33); }
+  /* line 484, C:/Projects/home/ebay/www/css/default.scss */
   .reviews .ratinglist {
     width: 157px;
     position: relative;
     display: inline-block;
     margin-left: 14px; }
+    /* line 485, C:/Projects/home/ebay/www/css/default.scss */
     .reviews .ratinglist input[type="checkbox"] {
       position: absolute;
       opacity: 0;
       pointer-events: none; }
+    /* line 487, C:/Projects/home/ebay/www/css/default.scss */
     .reviews .ratinglist > input[type="checkbox"]:checked + label + ul {
       display: block; }
+    /* line 488, C:/Projects/home/ebay/www/css/default.scss */
     .reviews .ratinglist .ratingselect {
       width: 100%;
       display: block;
@@ -1702,8 +2067,10 @@ div.bigwrapper {
       background-color: #f4f5f8;
       position: relative;
       padding-left: 41px; }
+      /* line 489, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .ratinglist .ratingselect .icon {
         margin-left: -33px; }
+      /* line 490, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .ratinglist .ratingselect:after {
         content: "";
         margin-top: -8px;
@@ -1718,17 +2085,22 @@ div.bigwrapper {
         background-repeat: no-repeat;
         opacity: .3;
         transition: all .25s ease-in-out; }
+      /* line 491, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .ratinglist .ratingselect:hover {
         cursor: pointer; }
+        /* line 492, C:/Projects/home/ebay/www/css/default.scss */
         .reviews .ratinglist .ratingselect:hover:after {
           opacity: .7; }
+    /* line 496, C:/Projects/home/ebay/www/css/default.scss */
     .reviews .ratinglist .icon {
       display: inline-block;
       vertical-align: top;
       transform: scale(0.767);
       transform-origin: left center; }
+      /* line 497, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .ratinglist .icon.neutral:after {
         background-color: #dbdee7; }
+    /* line 500, C:/Projects/home/ebay/www/css/default.scss */
     .reviews .ratinglist ul {
       position: absolute;
       width: 264px;
@@ -1742,15 +2114,19 @@ div.bigwrapper {
       z-index: 30;
       display: none;
       cursor: pointer; }
+      /* line 501, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .ratinglist ul li {
         padding: 0;
         border: 0;
         cursor: pointer;
         position: relative; }
+        /* line 502, C:/Projects/home/ebay/www/css/default.scss */
         .reviews .ratinglist ul li:hover {
           cursor: pointer; }
+          /* line 503, C:/Projects/home/ebay/www/css/default.scss */
           .reviews .ratinglist ul li:hover .text {
             color: #70739a; }
+      /* line 506, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .ratinglist ul label {
         margin-left: 0;
         margin-top: 0;
@@ -1762,6 +2138,7 @@ div.bigwrapper {
         padding-top: 1px;
         padding-right: 50px;
         cursor: pointer; }
+        /* line 507, C:/Projects/home/ebay/www/css/default.scss */
         .reviews .ratinglist ul label:after {
           content: url("../img/checked.svg");
           width: 16px;
@@ -1773,11 +2150,13 @@ div.bigwrapper {
           transition: all .25s ease-in-out;
           margin: auto;
           right: 24px; }
+      /* line 509, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .ratinglist ul .icon {
         position: absolute;
         left: 5px;
         top: 0px;
         transition: all .25s ease-in-out; }
+      /* line 510, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .ratinglist ul .text {
         font-size: 19px;
         line-height: 60px;
@@ -1785,49 +2164,63 @@ div.bigwrapper {
         box-sizing: border-box;
         display: block;
         transition: all .25s ease-in-out; }
+      /* line 511, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .ratinglist ul input[type="checkbox"]:checked + label:after {
         opacity: 1; }
+  /* line 516, C:/Projects/home/ebay/www/css/default.scss */
   .reviews .top {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+    /* line 517, C:/Projects/home/ebay/www/css/default.scss */
     .reviews .top div {
       display: flex;
       align-items: center; }
+    /* line 519, C:/Projects/home/ebay/www/css/default.scss */
     .reviews .top .rose {
       font-weight: 500;
       opacity: 1;
       margin-top: 3px; }
+      /* line 520, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .top .rose a span {
         opacity: 0.5;
         transition: all .25s ease-in-out; }
+      /* line 522, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .top .rose:hover span {
         opacity: 1; }
+      /* line 523, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .top .rose:hover img {
         left: 10px; }
+      /* line 525, C:/Projects/home/ebay/www/css/default.scss */
       .reviews .top .rose img {
         margin-left: 10px;
         position: relative;
         left: 0;
         transition: all .25s ease-in-out; }
+  /* line 528, C:/Projects/home/ebay/www/css/default.scss */
   .reviews .scrollbar-inner {
     height: 453px;
     margin-top: 47px;
     width: 100%; }
+  /* line 529, C:/Projects/home/ebay/www/css/default.scss */
   .reviews ul {
     padding: 0 90px; }
+    /* line 530, C:/Projects/home/ebay/www/css/default.scss */
     .reviews ul li {
       display: flex;
       justify-content: space-between;
       align-items: center;
       border-bottom: 1px solid #f2f3f6;
       padding: 30px 0; }
+      /* line 531, C:/Projects/home/ebay/www/css/default.scss */
       .reviews ul li:last-child {
         border-bottom: none; }
+      /* line 532, C:/Projects/home/ebay/www/css/default.scss */
       .reviews ul li:first-child {
         padding-top: 0; }
 
 /* ################################ */
+/* line 539, C:/Projects/home/ebay/www/css/default.scss */
 .comments {
   background-color: white;
   border-radius: 10px;
@@ -1838,16 +2231,19 @@ div.bigwrapper {
   /* ########## */
   /* ########## */
   /* ########## */ }
+  /* line 540, C:/Projects/home/ebay/www/css/default.scss */
   .comments .padding {
     width: 100%;
     margin-top: 49px;
     padding: 0 90px;
     box-sizing: border-box; }
+  /* line 544, C:/Projects/home/ebay/www/css/default.scss */
   .comments form {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     position: relative; }
+    /* line 545, C:/Projects/home/ebay/www/css/default.scss */
     .comments form:after {
       content: url("../img/link.svg");
       position: absolute;
@@ -1857,6 +2253,7 @@ div.bigwrapper {
       width: 24px;
       height: 24px;
       right: 30px; }
+    /* line 547, C:/Projects/home/ebay/www/css/default.scss */
     .comments form input {
       height: 80px;
       line-height: 76px;
@@ -1869,6 +2266,7 @@ div.bigwrapper {
       flex: 1;
       margin-left: 25px;
       color: #43456c; }
+    /* line 549, C:/Projects/home/ebay/www/css/default.scss */
     .comments form + div {
       display: flex;
       justify-content: space-between;
@@ -1877,30 +2275,40 @@ div.bigwrapper {
       padding-right: 23px;
       border-bottom: 1px solid #f2f3f6;
       padding-bottom: 21px; }
+      /* line 550, C:/Projects/home/ebay/www/css/default.scss */
       .comments form + div p {
         transition: all .25s ease-in-out; }
+        /* line 551, C:/Projects/home/ebay/www/css/default.scss */
         .comments form + div p a {
           transition: none; }
+      /* line 553, C:/Projects/home/ebay/www/css/default.scss */
       .comments form + div p:hover {
         opacity: 1;
         color: #ff73b3; }
+      /* line 554, C:/Projects/home/ebay/www/css/default.scss */
       .comments form + div p img {
         margin-left: 8px; }
+      /* line 555, C:/Projects/home/ebay/www/css/default.scss */
       .comments form + div .rightside p {
         display: inline-block; }
+        /* line 556, C:/Projects/home/ebay/www/css/default.scss */
         .comments form + div .rightside p:first-child {
           margin-right: 30px; }
+  /* line 563, C:/Projects/home/ebay/www/css/default.scss */
   .comments .icon.default {
     background-color: #5356ad; }
+    /* line 564, C:/Projects/home/ebay/www/css/default.scss */
     .comments .icon.default:after {
       content: url("../img/avatar-default.svg");
       background-color: transparent;
       opacity: 0.3; }
+  /* line 569, C:/Projects/home/ebay/www/css/default.scss */
   .comments ul {
     padding-top: 34px;
     overflow: hidden;
     height: auto;
     transition: all 0.25s ease-in-out; }
+  /* line 570, C:/Projects/home/ebay/www/css/default.scss */
   .comments li {
     position: relative;
     margin-top: 26px;
@@ -1911,43 +2319,55 @@ div.bigwrapper {
     /* ########## */
     /* ########## */
     /* ########## */ }
+    /* line 573, C:/Projects/home/ebay/www/css/default.scss */
     .comments li:hover .navblock {
       opacity: 1;
       top: -2px; }
+    /* line 574, C:/Projects/home/ebay/www/css/default.scss */
     .comments li:hover .bottom div {
       opacity: 1;
       bottom: 0; }
+    /* line 579, C:/Projects/home/ebay/www/css/default.scss */
     .comments li .icon.ava {
       background-size: cover;
       background-position: center;
       position: absolute;
       left: 1px;
       top: -4px; }
+      /* line 580, C:/Projects/home/ebay/www/css/default.scss */
       .comments li .icon.ava:after {
         display: none; }
+    /* line 585, C:/Projects/home/ebay/www/css/default.scss */
     .comments li p.name {
       opacity: 1; }
+    /* line 586, C:/Projects/home/ebay/www/css/default.scss */
     .comments li p.name, .comments li p.name + p {
       display: inline-block; }
+    /* line 587, C:/Projects/home/ebay/www/css/default.scss */
     .comments li p.name + p {
       text-transform: none;
       letter-spacing: 0;
       margin-left: 20px; }
+    /* line 591, C:/Projects/home/ebay/www/css/default.scss */
     .comments li .navblock {
       position: absolute;
       right: 0;
       top: -12px;
       opacity: 0;
       transition: all .25s ease-in-out; }
+      /* line 592, C:/Projects/home/ebay/www/css/default.scss */
       .comments li .navblock img {
         margin-left: 30px;
         vertical-align: middle;
         cursor: pointer;
         transition: all .25s ease-in-out; }
+        /* line 593, C:/Projects/home/ebay/www/css/default.scss */
         .comments li .navblock img:hover {
           opacity: .5; }
+    /* line 599, C:/Projects/home/ebay/www/css/default.scss */
     .comments li p.message {
       margin-top: 13px; }
+    /* line 603, C:/Projects/home/ebay/www/css/default.scss */
     .comments li .bottom {
       margin-top: 10px;
       display: flex;
@@ -1955,23 +2375,30 @@ div.bigwrapper {
       align-items: center;
       /* ########## */
       /* ########## */ }
+      /* line 604, C:/Projects/home/ebay/www/css/default.scss */
       .comments li .bottom div {
         position: relative;
         opacity: 0;
         bottom: -10px;
         transition: all .25s ease-in-out; }
+        /* line 605, C:/Projects/home/ebay/www/css/default.scss */
         .comments li .bottom div > * {
           display: inline-block;
           vertical-align: middle; }
+        /* line 606, C:/Projects/home/ebay/www/css/default.scss */
         .comments li .bottom div p.mini {
           margin-right: 30px; }
+      /* line 611, C:/Projects/home/ebay/www/css/default.scss */
       .comments li .bottom p {
         transition: all .25s ease-in-out; }
+        /* line 612, C:/Projects/home/ebay/www/css/default.scss */
         .comments li .bottom p a {
           transition: none; }
+        /* line 613, C:/Projects/home/ebay/www/css/default.scss */
         .comments li .bottom p:hover {
           opacity: 1;
           color: #ff73b3; }
+      /* line 618, C:/Projects/home/ebay/www/css/default.scss */
       .comments li .bottom .icon.rating {
         width: 29px;
         height: 29px;
@@ -1979,36 +2406,45 @@ div.bigwrapper {
         position: relative;
         top: -2px;
         left: 0; }
+        /* line 619, C:/Projects/home/ebay/www/css/default.scss */
         .comments li .bottom .icon.rating:after {
           content: "2";
           color: white;
           font-size: 14px;
           background-color: #50e3c2;
           border-radius: 12px; }
+    /* line 625, C:/Projects/home/ebay/www/css/default.scss */
     .comments li.answer {
       padding-left: 190px;
       margin-top: 23px; }
+      /* line 626, C:/Projects/home/ebay/www/css/default.scss */
       .comments li.answer .icon.ava {
         left: 106px; }
+    /* line 629, C:/Projects/home/ebay/www/css/default.scss */
     .comments li:first-child {
       margin-top: 0; }
+  /* line 631, C:/Projects/home/ebay/www/css/default.scss */
   .comments .buttons {
     text-align: center;
     margin-top: 40px;
     transition: all 0.25s ease-in-out; }
+    /* line 632, C:/Projects/home/ebay/www/css/default.scss */
     .comments .buttons.active {
       margin-top: -60px;
       opacity: 0;
       pointer-events: none; }
+  /* line 634, C:/Projects/home/ebay/www/css/default.scss */
   .comments a.button {
     background-color: rgba(255, 115, 179, 0.12);
     color: #ff73b3;
     box-shadow: none;
     font-weight: 500; }
+    /* line 635, C:/Projects/home/ebay/www/css/default.scss */
     .comments a.button:hover {
       background-color: rgba(255, 115, 179, 0.18); }
 
 /*##### preloader #####*/
+/* line 641, C:/Projects/home/ebay/www/css/default.scss */
 .siteloader {
   opacity: 0;
   pointer-events: none;
@@ -2024,20 +2460,25 @@ div.bigwrapper {
   justify-content: center;
   flex-direction: column;
   background-color: #F4F5F9; }
+  /* line 643, C:/Projects/home/ebay/www/css/default.scss */
   .siteloader__circles {
     opacity: 1;
     pointer-events: none;
     transform: translateY(0px); }
+    /* line 644, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__circles.visible {
       opacity: 1;
       pointer-events: all;
       transform: translateY(0); }
+      /* line 645, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__circles.visible .siteloader__icon {
         transform: translate3d(0, 0, 0);
         opacity: 1; }
+        /* line 646, C:/Projects/home/ebay/www/css/default.scss */
         .siteloader__circles.visible .siteloader__icon:before, .siteloader__circles.visible .siteloader__icon:after {
           opacity: 1;
           transform: translate3d(0, 0px, 0); }
+  /* line 651, C:/Projects/home/ebay/www/css/default.scss */
   .siteloader__icon {
     transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, transform 0.25s ease-in-out 0.5s, opacity 0.25s ease-in-out 0.5s;
     position: relative;
@@ -2049,32 +2490,46 @@ div.bigwrapper {
     background-color: rgba(228, 229, 236, 0.7);
     transform: translate3d(0, -20px, 0);
     opacity: 0; }
+    /* line 654, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon:nth-of-type(2) {
       transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out 0.6s, opacity 0.5s ease-in-out 0.6s; }
+      /* line 655, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon:nth-of-type(2):before {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.5s, transform 0.5s ease-in-out 0.5s; }
+      /* line 656, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon:nth-of-type(2):after {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
+    /* line 658, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon:nth-of-type(3) {
       transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out 0.7s, opacity 0.5s ease-in-out 0.7s; }
+      /* line 659, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon:nth-of-type(3):before {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
+      /* line 660, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon:nth-of-type(3):after {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.7s, transform 0.5s ease-in-out 0.7s; }
+    /* line 662, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon:nth-of-type(4) {
       transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out 0.8s, opacity 0.5s ease-in-out 0.8s; }
+      /* line 663, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon:nth-of-type(4):before {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
+      /* line 664, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon:nth-of-type(4):after {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.7s, transform 0.5s ease-in-out 0.7s; }
+    /* line 666, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon:nth-of-type(5) {
       transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out 0.9s, opacity 0.5s ease-in-out 0.9s; }
+      /* line 667, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon:nth-of-type(5):before {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
+      /* line 668, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon:nth-of-type(5):after {
         transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.7s, transform 0.5s ease-in-out 0.7s; }
+    /* line 671, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon:last-child {
       margin-right: 0; }
+    /* line 673, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon:before, .siteloader__icon:after {
       content: "";
       width: 7px;
@@ -2087,14 +2542,18 @@ div.bigwrapper {
       border-radius: 50%;
       opacity: 0;
       transform: translate3d(0, -10px, 0); }
+    /* line 674, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon:before {
       left: -25px;
       transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.4s, transform 0.5s ease-in-out 0.4s; }
+    /* line 675, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon:after {
       right: -25px;
       transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out 0.6s, transform 0.5s ease-in-out 0.6s; }
+    /* line 677, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon:first-child:before, .siteloader__icon:last-child:after {
       content: none; }
+    /* line 680, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon img {
       position: absolute;
       top: 0;
@@ -2103,42 +2562,55 @@ div.bigwrapper {
       left: 0;
       margin: auto;
       transition: all 0.5s ease-in-out; }
+      /* line 681, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon img.hand {
         transform: rotate(-45deg); }
+      /* line 682, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon img.hand-active {
         transform: rotate(90deg); }
+    /* line 684, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon span {
       opacity: 0;
       transition: all .5s ease-in-out;
       transform: translate3d(0, -10px, 0); }
+    /* line 686, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon_white {
       background-color: #fff; }
+    /* line 687, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon_pink {
       background-color: #FF73B3;
       box-shadow: 0 15px 35px rgba(255, 114, 179, 0.33); }
+      /* line 688, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon_pink > img {
         opacity: 0;
         transform: translate3d(0, 10px, 0); }
+      /* line 689, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__icon_pink span {
         opacity: 1;
         transform: translate3d(0, 0px, 0); }
+    /* line 691, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon_left-dark:before, .siteloader__icon_right-dark:after {
       background-color: #43456c; }
+    /* line 692, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__icon_left-pink:before, .siteloader__icon_right-pink:after {
       background-color: #ff73b3; }
+  /* line 695, C:/Projects/home/ebay/www/css/default.scss */
   .siteloader.active {
     opacity: 1;
     pointer-events: all; }
 
 /*##############################*/
+/* line 700, C:/Projects/home/ebay/www/css/default.scss */
 .siteloader__progress {
   width: 573px;
   margin-top: 70px;
   margin-left: 40px; }
+  /* line 702, C:/Projects/home/ebay/www/css/default.scss */
   .siteloader__progress.visible .siteloader__progress_bar {
     opacity: 1;
     pointer-events: all;
     transform: translate3d(0, 0, 0); }
+  /* line 704, C:/Projects/home/ebay/www/css/default.scss */
   .siteloader__progress_bar {
     width: 100%;
     height: 6px;
@@ -2150,6 +2622,7 @@ div.bigwrapper {
     opacity: 0;
     pointer-events: none;
     overflow: hidden; }
+    /* line 705, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__progress_bar_progressive {
       display: block;
       width: 100%;
@@ -2159,8 +2632,10 @@ div.bigwrapper {
       box-shadow: 0 4px 18px rgba(255, 114, 179, 0.5);
       background-color: #ff73b3;
       height: 100%; }
+      /* line 706, C:/Projects/home/ebay/www/css/default.scss */
       .siteloader__progress_bar_progressive.active {
         transform: scale3d(1, 1, 1); }
+  /* line 709, C:/Projects/home/ebay/www/css/default.scss */
   .siteloader__progress_texts {
     text-align: center;
     display: inline-block;
@@ -2170,9 +2645,11 @@ div.bigwrapper {
     transform: translate3d(0, 0, 0);
     transition: transform 9s linear 1s, opacity 0.5s ease-in-out 1s;
     opacity: 0; }
+    /* line 710, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__progress_texts.active {
       transform: translate3d(573px, 0, 0);
       opacity: 1; }
+    /* line 711, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__progress_texts_percent {
       margin: auto;
       width: 73px;
@@ -2183,6 +2660,7 @@ div.bigwrapper {
       font-family: Circe;
       font-size: 19px;
       box-shadow: 0 8px 20px rgba(67, 69, 108, 0.2); }
+    /* line 712, C:/Projects/home/ebay/www/css/default.scss */
     .siteloader__progress_texts_text {
       margin: 12px auto 0;
       width: 100%;
@@ -2193,6 +2671,7 @@ div.bigwrapper {
       font-size: 19px;
       line-height: 26px; }
 
+/* line 722, C:/Projects/home/ebay/www/css/default.scss */
 .icon {
   display: inline-flex;
   justify-content: center;
@@ -2201,6 +2680,7 @@ div.bigwrapper {
   height: 60px;
   border-radius: 26px;
   transition: all .25s ease-in-out; }
+  /* line 723, C:/Projects/home/ebay/www/css/default.scss */
   .icon:after {
     content: "";
     width: 100%;
@@ -2213,6 +2693,7 @@ div.bigwrapper {
     transition: all .25s ease-in-out; }
 
 /*##############################*/
+/* line 728, C:/Projects/home/ebay/www/css/default.scss */
 .errorblock {
   background-color: #43456c;
   line-height: 50px;
@@ -2226,40 +2707,50 @@ div.bigwrapper {
   opacity: 0;
   pointer-events: none;
   z-index: 150; }
+  /* line 729, C:/Projects/home/ebay/www/css/default.scss */
   .errorblock .message {
     color: white; }
+  /* line 730, C:/Projects/home/ebay/www/css/default.scss */
   .errorblock [href="#close"] {
     color: #ff73b3;
     letter-spacing: 0.1em;
     font-weight: 600;
     font-size: 14px;
     margin-left: 27px; }
+    /* line 731, C:/Projects/home/ebay/www/css/default.scss */
     .errorblock [href="#close"]:hover {
       color: #e85c9c; }
+  /* line 733, C:/Projects/home/ebay/www/css/default.scss */
   .errorblock.active {
     top: 15px;
     opacity: 1;
     pointer-events: all; }
 
 /*##############################*/
+/* line 739, C:/Projects/home/ebay/www/css/default.scss */
 .menu a {
   font-size: 16.5px;
   letter-spacing: 0.01em;
   font-weight: 300; }
 
+/* line 740, C:/Projects/home/ebay/www/css/default.scss */
 .menu__column {
   display: inline-block;
   vertical-align: top;
   margin-left: 72px;
   text-align: left; }
+  /* line 741, C:/Projects/home/ebay/www/css/default.scss */
   .menu__column:first-child {
     margin-left: 0; }
+  /* line 742, C:/Projects/home/ebay/www/css/default.scss */
   .menu__column li {
     margin-bottom: 24px; }
+    /* line 743, C:/Projects/home/ebay/www/css/default.scss */
     .menu__column li:last-child {
       margin-bottom: 0; }
 
 /*##############################*/
+/* line 750, C:/Projects/home/ebay/www/css/default.scss */
 .container_navcards {
   width: auto;
   overflow: hidden;
@@ -2268,10 +2759,12 @@ div.bigwrapper {
   padding: 12px 0;
   box-sizing: border-box; }
 
+/* line 751, C:/Projects/home/ebay/www/css/default.scss */
 .js-navcards {
   transform: translate3d(0, 0, 0); }
 
 /*##############################*/
+/* line 755, C:/Projects/home/ebay/www/css/default.scss */
 .cardnav {
   position: absolute;
   left: 0;
@@ -2282,6 +2775,7 @@ div.bigwrapper {
   height: 100%;
   pointer-events: none;
   z-index: 2; }
+  /* line 756, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav:before, .cardnav:after {
     content: "";
     display: inline-block;
@@ -2295,10 +2789,13 @@ div.bigwrapper {
     opacity: 0;
     pointer-events: none;
     transition: all 0.25s ease-in-out; }
+  /* line 757, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav:before {
     left: -1px; }
+  /* line 758, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav:after {
     right: 0; }
+  /* line 759, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav__arrow {
     display: inline-block;
     position: absolute;
@@ -2310,34 +2807,45 @@ div.bigwrapper {
     pointer-events: none;
     width: 42px;
     height: 140px; }
+    /* line 760, C:/Projects/home/ebay/www/css/default.scss */
     .cardnav__arrow img {
       position: absolute;
       top: 0;
       pointer-events: none; }
+    /* line 761, C:/Projects/home/ebay/www/css/default.scss */
     .cardnav__arrow.prev {
       left: 0; }
+      /* line 762, C:/Projects/home/ebay/www/css/default.scss */
       .cardnav__arrow.prev img {
         transform: rotateY(180deg);
         transform-origin: center;
         left: 0; }
+    /* line 764, C:/Projects/home/ebay/www/css/default.scss */
     .cardnav__arrow.next {
       right: 0; }
+      /* line 765, C:/Projects/home/ebay/www/css/default.scss */
       .cardnav__arrow.next img {
         right: 0; }
+    /* line 767, C:/Projects/home/ebay/www/css/default.scss */
     .cardnav__arrow:hover {
       transform: translate3d(0, 0, 0); }
+  /* line 770, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav.right-arrow:after {
     opacity: 1; }
+  /* line 771, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav.right-arrow .cardnav__arrow.next {
     opacity: 1;
     pointer-events: all; }
+  /* line 774, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav.left-arrow:before {
     opacity: 1; }
+  /* line 775, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav.left-arrow .cardnav__arrow.prev {
     opacity: 1;
     pointer-events: all; }
 
 /*##############################*/
+/* line 781, C:/Projects/home/ebay/www/css/default.scss */
 .sellercard {
   display: block;
   width: 403px;
@@ -2349,12 +2857,14 @@ div.bigwrapper {
   padding: 26px;
   align-items: flex-start;
   box-sizing: border-box; }
+  /* line 782, C:/Projects/home/ebay/www/css/default.scss */
   .sellercard__avatar {
     position: relative;
     width: 100px;
     height: 100px;
     border-radius: 1000px;
     overflow: hidden; }
+    /* line 783, C:/Projects/home/ebay/www/css/default.scss */
     .sellercard__avatar img {
       position: absolute;
       left: 0;
@@ -2366,28 +2876,34 @@ div.bigwrapper {
       min-height: 100%;
       width: 0;
       object-fit: cover; }
+  /* line 785, C:/Projects/home/ebay/www/css/default.scss */
   .sellercard__info {
     margin-left: 26px;
     padding-top: 7px;
     flex: 1 0; }
+  /* line 786, C:/Projects/home/ebay/www/css/default.scss */
   .sellercard__name {
     font-size: 26px;
     font-weight: 300; }
+  /* line 787, C:/Projects/home/ebay/www/css/default.scss */
   .sellercard__details {
     display: flex;
     position: relative;
     margin-top: 17px;
     justify-content: space-between; }
+  /* line 788, C:/Projects/home/ebay/www/css/default.scss */
   .sellercard__detail {
     width: 45%;
     font-size: 16.5px;
     font-weight: 300;
     line-height: 1.4em; }
+    /* line 789, C:/Projects/home/ebay/www/css/default.scss */
     .sellercard__detail span {
       display: block;
       opacity: 0.56; }
 
 /*##############################*/
+/* line 795, C:/Projects/home/ebay/www/css/default.scss */
 .scroll-link {
   position: absolute;
   left: 0;
@@ -2398,6 +2914,7 @@ div.bigwrapper {
   align-items: center;
   width: 170px;
   justify-content: center; }
+  /* line 796, C:/Projects/home/ebay/www/css/default.scss */
   .scroll-link__mouse {
     display: inline-block;
     width: 18px;
@@ -2407,6 +2924,7 @@ div.bigwrapper {
     position: relative;
     margin-right: 18px;
     overflow: hidden; }
+    /* line 797, C:/Projects/home/ebay/www/css/default.scss */
     .scroll-link__mouse:after {
       content: "";
       display: inline-block;
@@ -2420,14 +2938,17 @@ div.bigwrapper {
       top: 5px;
       margin: auto;
       animation: mousewheel 2s ease-in-out infinite; }
+  /* line 799, C:/Projects/home/ebay/www/css/default.scss */
   .scroll-link__text {
     font-size: 16.5px;
     font-weight: 300;
     letter-spacing: 0.01em; }
+    /* line 800, C:/Projects/home/ebay/www/css/default.scss */
     .scroll-link__text_second {
       position: absolute;
       opacity: 0;
       pointer-events: none; }
+  /* line 802, C:/Projects/home/ebay/www/css/default.scss */
   .scroll-link:hover {
     opacity: 0.7; }
 
@@ -2440,12 +2961,14 @@ div.bigwrapper {
     transform: translate3d(0, -12px, 0); } }
 
 /*##############################*/
+/* line 813, C:/Projects/home/ebay/www/css/default.scss */
 .goodcard {
   width: 499px;
   border-radius: 3px;
   background-color: #fff;
   display: block;
   padding-left: 203px; }
+  /* line 814, C:/Projects/home/ebay/www/css/default.scss */
   .goodcard__image {
     width: 213px;
     display: inline-flex;
@@ -2457,17 +2980,21 @@ div.bigwrapper {
     height: 100%;
     overflow: hidden;
     border-radius: 3px 0 0 3px; }
+    /* line 815, C:/Projects/home/ebay/www/css/default.scss */
     .goodcard__image img {
       max-width: 100%; }
+  /* line 817, C:/Projects/home/ebay/www/css/default.scss */
   .goodcard__info {
     padding: 33px 40px 37px;
     position: relative; }
+  /* line 818, C:/Projects/home/ebay/www/css/default.scss */
   .goodcard__number {
     opacity: 0.56;
     color: #151b2d;
     font-size: 16.5px;
     font-weight: 300;
     padding-right: 70px; }
+  /* line 819, C:/Projects/home/ebay/www/css/default.scss */
   .goodcard__price {
     color: #bfc1ca;
     font-size: 16.5px;
@@ -2475,6 +3002,7 @@ div.bigwrapper {
     position: absolute;
     top: 33px;
     right: 40px; }
+  /* line 820, C:/Projects/home/ebay/www/css/default.scss */
   .goodcard__text {
     font-size: 16.5px;
     font-weight: 300;
@@ -2482,8 +3010,10 @@ div.bigwrapper {
     margin-top: 7px; }
 
 /*##############################*/
+/* line 825, C:/Projects/home/ebay/www/css/default.scss */
 .shadow-hover {
   position: relative; }
+  /* line 826, C:/Projects/home/ebay/www/css/default.scss */
   .shadow-hover:before {
     content: "";
     position: absolute;
@@ -2497,6 +3027,7 @@ div.bigwrapper {
     box-shadow: 0 6px 36px 0 rgba(25, 33, 45, 0.02);
     transition: all 0.25s ease-in-out;
     z-index: 2; }
+  /* line 827, C:/Projects/home/ebay/www/css/default.scss */
   .shadow-hover:after {
     content: "";
     position: absolute;
@@ -2510,17 +3041,21 @@ div.bigwrapper {
     box-sizing: border-box;
     z-index: 1;
     transition: all 0.25s ease-in-out; }
+  /* line 828, C:/Projects/home/ebay/www/css/default.scss */
   .shadow-hover:hover:before {
     width: calc(100%);
     height: calc(100%);
     box-shadow: 0 36px 36px 0 rgba(25, 33, 45, 0.1); }
+  /* line 829, C:/Projects/home/ebay/www/css/default.scss */
   .shadow-hover:hover:after {
     box-shadow: inset 0 0 0 10px #f6f6f6;
     border-radius: 13px; }
+  /* line 830, C:/Projects/home/ebay/www/css/default.scss */
   .shadow-hover.hover {
     z-index: 2; }
 
 /*##############################*/
+/* line 835, C:/Projects/home/ebay/www/css/default.scss */
 .morecard {
   display: inline-flex;
   width: 296px;
@@ -2536,27 +3071,177 @@ div.bigwrapper {
   background-color: #ff73b3;
   background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.4) 0%, rgba(35, 105, 191, 0.4) 48%, rgba(148, 200, 55, 0.4) 100%);
   position: relative; }
+  /* line 836, C:/Projects/home/ebay/www/css/default.scss */
   .morecard__count {
     position: absolute;
     right: 40px;
     top: 34px;
     font-size: 16.5px;
     font-weight: 700; }
+  /* line 837, C:/Projects/home/ebay/www/css/default.scss */
   .morecard__text {
     font-size: 16.5px;
     font-weight: 300;
     line-height: 1.44em;
     margin-top: 20px; }
 
+/*##############################*/
+/* line 842, C:/Projects/home/ebay/www/css/default.scss */
+.afterlogo {
+  color: #262627;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+  padding-left: 38px;
+  margin-left: 36px;
+  line-height: 1.35em;
+  letter-spacing: 0.01em;
+  font-size: 16.5px; }
+  /* line 843, C:/Projects/home/ebay/www/css/default.scss */
+  .afterlogo:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background-color: #dddfe2;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+/*##############################*/
+/* line 848, C:/Projects/home/ebay/www/css/default.scss */
+.footer {
+  border-top: 1px solid #e6e7e9;
+  padding: 52px 0;
+  background-color: #f6f6f6; }
+  /* line 849, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+  /* line 850, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__logoblock {
+    display: flex;
+    align-items: center; }
+  /* line 851, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__menu {
+    color: #262627;
+    font-weight: 300; }
+    /* line 852, C:/Projects/home/ebay/www/css/default.scss */
+    .footer__menu .menu__column {
+      margin-left: 57px; }
+      /* line 853, C:/Projects/home/ebay/www/css/default.scss */
+      .footer__menu .menu__column:first-child {
+        margin-left: 0; }
+      /* line 854, C:/Projects/home/ebay/www/css/default.scss */
+      .footer__menu .menu__column:last-child {
+        margin-left: 42px;
+        margin-right: 21px; }
+    /* line 856, C:/Projects/home/ebay/www/css/default.scss */
+    .footer__menu li.active a {
+      opacity: 0.5; }
+    /* line 857, C:/Projects/home/ebay/www/css/default.scss */
+    .footer__menu a:hover {
+      opacity: 0.5; }
+  /* line 859, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px; }
+  /* line 860, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__bottom-left {
+    width: 49%; }
+  /* line 861, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__bottom-right {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between; }
+  /* line 862, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__trademark {
+    opacity: 0.7;
+    color: #262627;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.015em;
+    line-height: 1.6em; }
+    /* line 863, C:/Projects/home/ebay/www/css/default.scss */
+    .footer__trademark + .footer__trademark {
+      margin-top: 20px; }
+  /* line 865, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__copyright {
+    opacity: 0.7;
+    color: #262627;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    flex-grow: 1;
+    margin-left: 20px;
+    flex: 1; }
+  /* line 866, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__certificate {
+    opacity: 0.7;
+    color: #262627;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.015em;
+    line-height: 1.6em;
+    width: 100%; }
+  /* line 868, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__links li {
+    display: inline-block;
+    color: #262627;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 72px;
+    letter-spacing: 0.015em; }
+    /* line 869, C:/Projects/home/ebay/www/css/default.scss */
+    .footer__links li:first-child {
+      margin-left: 0; }
+  /* line 871, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__links a:hover {
+    opacity: 0.5; }
+  /* line 873, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__mail {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #262627;
+    font-size: 13px;
+    font-weight: 300; }
+  /* line 874, C:/Projects/home/ebay/www/css/default.scss */
+  .footer__adults {
+    display: inline-block;
+    font-weight: 300;
+    border-radius: 8px;
+    border: 1px solid #e2e2e6;
+    margin-left: 15px;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    color: #494a4c; }
+
 @media (max-width: 1919px) {
+  /* line 880, C:/Projects/home/ebay/www/css/default.scss */
   .container_navcards {
     margin: 0 24px;
     overflow: visible; }
+  /* line 881, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav:before, .cardnav:after {
     display: none; }
+  /* line 882, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav__arrow.prev {
     left: -24px; }
+  /* line 883, C:/Projects/home/ebay/www/css/default.scss */
   .cardnav__arrow.next {
     right: -24px; } }
+
+@media (min-width: 1001px) {
+  /* line 887, C:/Projects/home/ebay/www/css/default.scss */
+  .mobile {
+    display: none !important; } }
 
 /*# sourceMappingURL=default.css.map */
